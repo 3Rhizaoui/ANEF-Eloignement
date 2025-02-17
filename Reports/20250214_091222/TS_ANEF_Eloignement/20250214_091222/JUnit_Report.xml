@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_ANEF_Eloignement" time="95.811" tests="1" failures="0" errors="0">
+   <testsuite name="TS_ANEF_Eloignement" tests="1" failures="0" errors="0" time="95.811" skipped="0" timestamp="14-02-2025T09:12:28" hostname="nbenjemi - LFR-5CG1459ZTG.corp.capgemini.com" id="Test Suites/TS_ANEF_Eloignement">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\nbenjemi\\Katalon Studio\\ANEF-ELOIGNEMENT-20250121\\ANEF-ELOIGNEMENT-20250121\\Reports\\20250214_091222\\TS_ANEF_Eloignement\\20250214_091222"/>
+         <property name="logFiles" value="C:\\Users\\nbenjemi\\Katalon Studio\\ANEF-ELOIGNEMENT-20250121\\ANEF-ELOIGNEMENT-20250121\\Reports\\20250214_091222\\TS_ANEF_Eloignement\\20250214_091222\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nbenjemi - LFR-5CG1459ZTG.corp.capgemini.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 133.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.197"/>
+         <property name="sessionId" value="cbf997ba7b6c9070e2a3885441adc37e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement" time="95.157" classname="Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement" status="PASSED">
+         <system-out><![CDATA[14-02-2025T09:12:29 - [TEST_CASE][PASSED] - Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement: Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement
+
+14-02-2025T09:12:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF"), ["Profiles":Profiles, "EnvExec":EnvExec], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF' successfully
+
+14-02-2025T09:12:30 - [MESSAGE][INFO] - Checking called Test Case
+
+14-02-2025T09:12:30 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF'
+
+14-02-2025T09:12:31 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF: Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - "Call Highlight.on() automatically": null
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - projDir = getProjectDir(): null
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - RunBrowserConfiguration = getExecutionProperties(): null
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - DriverName = get("WebUI").get("browserType"): null
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - println("DriverName :" + DriverName): null
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - println("Driverpath :" + RunBrowserConfiguration.get("drivers")): null
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - if (Profiles == "Usager"): null
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - if (Profiles == "Agent"): Current window maximized
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - if (EnvExec == "URLPortailAgentQualif"): Browser is opened with url: 'https://qualification.siaef.dgef.interieur.gouv.fr/sejour/#/accueil'
+
+14-02-2025T09:12:31 - [TEST_STEP][PASSED] - openBrowser(URLPortailAgentQualif): Browser is opened with url: 'https://qualification.siaef.dgef.interieur.gouv.fr/sejour/#/accueil'
+
+14-02-2025T09:12:32 - [MESSAGE][INFO] - Opening browser
+
+14-02-2025T09:12:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-02-2025T09:12:32 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --disable-search-engine-choice-screen, --enable-automation, --disable-save-password-bubble, --start-maximized, --remote-allow-origins=*]']
+
+14-02-2025T09:12:32 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=${GlobalVariable.downloadPath}, download_dir=${GlobalVariable.downloadPath}, download.prompt_for_download=false}']
+
+14-02-2025T09:12:32 - [MESSAGE][INFO] - User set preference: ['loggingPrefs', '{browser=ALL}']
+
+14-02-2025T09:12:32 - [MESSAGE][INFO] - Action delay is set to 1 000 milliseconds
+
+14-02-2025T09:12:35 - [MESSAGE][INFO] - Navigating browser to: 'https://qualification.siaef.dgef.interieur.gouv.fr/sejour/#/accueil'
+
+14-02-2025T09:12:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qualification.siaef.dgef.interieur.gouv.fr/sejour/#/accueil'
+
+14-02-2025T09:12:38 - [TEST_STEP][PASSED] - if (EnvExec == "URLPortailAgentPreProd"): null
+
+14-02-2025T09:12:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-02-2025T09:12:38 - [MESSAGE][INFO] - Maximizing current window
+
+14-02-2025T09:12:38 - [MESSAGE][PASSED] - Current window maximized
+
+14-02-2025T09:12:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF' successfully
+
+14-02-2025T09:12:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification"), ["Profiles":Profiles, "IdentifiantAgent":IdentifiantAgent, "PwAgent":PwAgent, "EnvExec":EnvExec], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification' successfully
+
+14-02-2025T09:12:38 - [MESSAGE][INFO] - Checking called Test Case
+
+14-02-2025T09:12:38 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification'
+
+14-02-2025T09:12:38 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification: Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification
+
+14-02-2025T09:12:39 - [TEST_STEP][PASSED] - com.kazurayam.ksbackyard.HighlightElement.pandemic(): com.kazurayam.ksbackyard.HighlightElement.pandemic is PASSED
+
+14-02-2025T09:12:40 - [MESSAGE][PASSED] - com.kazurayam.ksbackyard.HighlightElement.pandemic is PASSED
+
+14-02-2025T09:12:40 - [TEST_STEP][PASSED] - if (Profiles == "Usager"): null
+
+14-02-2025T09:12:40 - [TEST_STEP][PASSED] - if (Profiles == "Agent"): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent' is clicked on
+
+14-02-2025T09:12:40 - [TEST_STEP][PASSED] - if (EnvExec == "URLPortailAgentQualif"): Text 'Natali12345!' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent'
+
+14-02-2025T09:12:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent"), IdentifiantAgent): Text 'test.gpe+32@outlook.fr' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent'
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent'
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent' located by 'By.xpath: //*[@aria-labelledby="username-label"]|//*[@id="login"]' in '20' second(s)
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent' located by 'By.xpath: //*[@aria-labelledby="username-label"]|//*[@id="login"]' in '20' second(s)
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Checking text
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent' located by 'By.xpath: //*[@aria-labelledby="username-label"]|//*[@id="login"]' in '100' second(s)
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent' located by 'By.xpath: //*[@aria-labelledby="username-label"]|//*[@id="login"]' in '100' second(s)
+
+14-02-2025T09:12:40 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent'
+
+14-02-2025T09:12:41 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:12:41 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent' located by 'By.xpath: //*[@aria-labelledby="username-label"]|//*[@id="login"]' in '100' second(s)
+
+14-02-2025T09:12:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent' located by 'By.xpath: //*[@aria-labelledby="username-label"]|//*[@id="login"]' in '100' second(s)
+
+14-02-2025T09:12:41 - [MESSAGE][INFO] - Setting text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent' to value 'test.gpe+32@outlook.fr'
+
+14-02-2025T09:12:42 - [MESSAGE][PASSED] - Text 'test.gpe+32@outlook.fr' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent'
+
+14-02-2025T09:12:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent"), PwAgent): Text 'Natali12345!' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent'
+
+14-02-2025T09:12:42 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent'
+
+14-02-2025T09:12:42 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent' located by 'By.xpath: //*[@aria-labelledby="password-label"]|//*[@id="password"]' in '20' second(s)
+
+14-02-2025T09:12:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent' located by 'By.xpath: //*[@aria-labelledby="password-label"]|//*[@id="password"]' in '20' second(s)
+
+14-02-2025T09:12:43 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:12:43 - [MESSAGE][INFO] - Checking text
+
+14-02-2025T09:12:43 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:12:43 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent' located by 'By.xpath: //*[@aria-labelledby="password-label"]|//*[@id="password"]' in '100' second(s)
+
+14-02-2025T09:12:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent' located by 'By.xpath: //*[@aria-labelledby="password-label"]|//*[@id="password"]' in '100' second(s)
+
+14-02-2025T09:12:43 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent'
+
+14-02-2025T09:12:44 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:12:44 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent' located by 'By.xpath: //*[@aria-labelledby="password-label"]|//*[@id="password"]' in '100' second(s)
+
+14-02-2025T09:12:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent' located by 'By.xpath: //*[@aria-labelledby="password-label"]|//*[@id="password"]' in '100' second(s)
+
+14-02-2025T09:12:44 - [MESSAGE][INFO] - Setting text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent' to value 'Natali12345!'
+
+14-02-2025T09:12:45 - [MESSAGE][PASSED] - Text 'Natali12345!' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent'
+
+14-02-2025T09:12:45 - [TEST_STEP][PASSED] - if (EnvExec == "URLPortailAgentPreProd"): null
+
+14-02-2025T09:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent")): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent' is clicked on
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent'
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent' located by 'By.xpath: //*[@label="Valider"]|//*[@id="btn-login"]' in '20' second(s)
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent' located by 'By.xpath: //*[@label="Valider"]|//*[@id="btn-login"]' in '20' second(s)
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent' located by 'By.xpath: //*[@label="Valider"]|//*[@id="btn-login"]' in '100' second(s)
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent' located by 'By.xpath: //*[@label="Valider"]|//*[@id="btn-login"]' in '100' second(s)
+
+14-02-2025T09:12:45 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent'
+
+14-02-2025T09:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent' is clicked on
+
+14-02-2025T09:12:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-02-2025T09:12:46 - [MESSAGE][INFO] - Delaying browser in 5 second(s)
+
+14-02-2025T09:12:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-02-2025T09:12:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement"), 1, STOP_ON_FAILURE): Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' is present
+
+14-02-2025T09:12:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement'
+
+14-02-2025T09:12:51 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:12:51 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:12:51 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:51 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' located by 'By.xpath: //span[contains(text()," ANEF éloignement ")]' in '1' second(s)
+
+14-02-2025T09:12:51 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' located by 'By.xpath: //span[contains(text()," ANEF éloignement ")]' in '1' second(s)
+
+14-02-2025T09:12:51 - [MESSAGE][PASSED] - Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' is present
+
+14-02-2025T09:12:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification' successfully
+
+14-02-2025T09:12:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier"), ["CreationOuRecherche":CreationOuRecherche, "NumeroEtranger":NumeroEtranger], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier' successfully
+
+14-02-2025T09:12:51 - [MESSAGE][INFO] - Checking called Test Case
+
+14-02-2025T09:12:51 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier'
+
+14-02-2025T09:12:51 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier: Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier
+
+14-02-2025T09:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement")): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' is clicked on
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement'
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' located by 'By.xpath: //span[contains(text()," ANEF éloignement ")]' in '20' second(s)
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' located by 'By.xpath: //span[contains(text()," ANEF éloignement ")]' in '20' second(s)
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' located by 'By.xpath: //span[contains(text()," ANEF éloignement ")]' in '100' second(s)
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' located by 'By.xpath: //span[contains(text()," ANEF éloignement ")]' in '100' second(s)
+
+14-02-2025T09:12:52 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement'
+
+14-02-2025T09:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement' is clicked on
+
+14-02-2025T09:12:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier"), 1, STOP_ON_FAILURE): Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' is present
+
+14-02-2025T09:12:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier'
+
+14-02-2025T09:12:55 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:12:55 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:12:55 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:12:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' located by 'By.xpath: //button[@title="Rechercher un dossier"]' in '1' second(s)
+
+14-02-2025T09:12:55 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' located by 'By.xpath: //button[@title="Rechercher un dossier"]' in '1' second(s)
+
+14-02-2025T09:12:55 - [MESSAGE][PASSED] - Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' is present
+
+14-02-2025T09:12:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-02-2025T09:12:55 - [MESSAGE][INFO] - Delaying browser in 5 second(s)
+
+14-02-2025T09:13:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-02-2025T09:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier")): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' is clicked on
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier'
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' located by 'By.xpath: //button[@title="Rechercher un dossier"]' in '20' second(s)
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' located by 'By.xpath: //button[@title="Rechercher un dossier"]' in '20' second(s)
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' located by 'By.xpath: //button[@title="Rechercher un dossier"]' in '100' second(s)
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' located by 'By.xpath: //button[@title="Rechercher un dossier"]' in '100' second(s)
+
+14-02-2025T09:13:00 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier'
+
+14-02-2025T09:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier' is clicked on
+
+14-02-2025T09:13:01 - [TEST_STEP][PASSED] - if (CreationOuRecherche == "Creation"): null
+
+14-02-2025T09:13:01 - [TEST_STEP][PASSED] - if (CreationOuRecherche == "Recherche"): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger' is clicked on
+
+14-02-2025T09:13:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger"), NumeroEtranger, STOP_ON_FAILURE): Text '7703056080' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger'
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger'
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '20' second(s)
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '20' second(s)
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Checking text
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '100' second(s)
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '100' second(s)
+
+14-02-2025T09:13:01 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger'
+
+14-02-2025T09:13:03 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:03 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:03 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '100' second(s)
+
+14-02-2025T09:13:03 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '100' second(s)
+
+14-02-2025T09:13:03 - [MESSAGE][INFO] - Setting text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' to value '7703056080'
+
+14-02-2025T09:13:04 - [MESSAGE][PASSED] - Text '7703056080' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger'
+
+14-02-2025T09:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' is clicked on
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger'
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '20' second(s)
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '20' second(s)
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '100' second(s)
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' located by 'By.xpath: //app-identite-declaree-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]|//app-search-box//div/app-dsfr-input/div/input[@id="identifiant_agdref"]' in '100' second(s)
+
+14-02-2025T09:13:04 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger'
+
+14-02-2025T09:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger' is clicked on
+
+14-02-2025T09:13:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche"), 5, STOP_ON_FAILURE): Scroll to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' successfully
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche'
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' located by 'By.xpath: //button[contains(text(),"Lancer la recherche ")]' in '100' second(s)
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' located by 'By.xpath: //button[contains(text(),"Lancer la recherche ")]' in '100' second(s)
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche'
+
+14-02-2025T09:13:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' successfully
+
+14-02-2025T09:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' is clicked on
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche'
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' located by 'By.xpath: //button[contains(text(),"Lancer la recherche ")]' in '20' second(s)
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' located by 'By.xpath: //button[contains(text(),"Lancer la recherche ")]' in '20' second(s)
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' located by 'By.xpath: //button[contains(text(),"Lancer la recherche ")]' in '100' second(s)
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' located by 'By.xpath: //button[contains(text(),"Lancer la recherche ")]' in '100' second(s)
+
+14-02-2025T09:13:05 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche'
+
+14-02-2025T09:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche' is clicked on
+
+14-02-2025T09:13:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-02-2025T09:13:06 - [MESSAGE][INFO] - Delaying browser in 5 second(s)
+
+14-02-2025T09:13:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-02-2025T09:13:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier"), 5, STOP_ON_FAILURE): Scroll to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' successfully
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier'
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' located by 'By.xpath: //app-search-etranger/app-search-result-etranger//table/tbody/tr//label' in '100' second(s)
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' located by 'By.xpath: //app-search-etranger/app-search-result-etranger//table/tbody/tr//label' in '100' second(s)
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier'
+
+14-02-2025T09:13:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' successfully
+
+14-02-2025T09:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' is clicked on
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier'
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' located by 'By.xpath: //app-search-etranger/app-search-result-etranger//table/tbody/tr//label' in '20' second(s)
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' located by 'By.xpath: //app-search-etranger/app-search-result-etranger//table/tbody/tr//label' in '20' second(s)
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' located by 'By.xpath: //app-search-etranger/app-search-result-etranger//table/tbody/tr//label' in '100' second(s)
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' located by 'By.xpath: //app-search-etranger/app-search-result-etranger//table/tbody/tr//label' in '100' second(s)
+
+14-02-2025T09:13:11 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier'
+
+14-02-2025T09:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier' is clicked on
+
+14-02-2025T09:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger' is clicked on
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger'
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger' located by 'By.xpath: //button[contains(text(),"Choisir un dossier étranger")]' in '20' second(s)
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger' located by 'By.xpath: //button[contains(text(),"Choisir un dossier étranger")]' in '20' second(s)
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger' located by 'By.xpath: //button[contains(text(),"Choisir un dossier étranger")]' in '100' second(s)
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger' located by 'By.xpath: //button[contains(text(),"Choisir un dossier étranger")]' in '100' second(s)
+
+14-02-2025T09:13:13 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger'
+
+14-02-2025T09:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger' is clicked on
+
+14-02-2025T09:13:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier' successfully
+
+14-02-2025T09:13:14 - [TEST_STEP][PASSED] - if (CreationOuRecherche == "Creation"): null
+
+14-02-2025T09:13:14 - [TEST_STEP][PASSED] - println(NumeroEtranger): null
+
+14-02-2025T09:13:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure"), ["Mesure":Mesure, "FondementLegal":FondementLegal, "NatureDeLacteExpulsion":NatureDeLacteExpulsion, "NatureDeLacteExpulsion":NatureDeLacteExpulsion, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure' successfully
+
+14-02-2025T09:13:14 - [MESSAGE][INFO] - Checking called Test Case
+
+14-02-2025T09:13:14 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure'
+
+14-02-2025T09:13:14 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure: Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure
+
+14-02-2025T09:13:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure' is clicked on
+
+14-02-2025T09:13:15 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure'
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure' located by 'By.xpath: //button[@title="Prendre une Mesure"]' in '20' second(s)
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure' located by 'By.xpath: //button[@title="Prendre une Mesure"]' in '20' second(s)
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure' located by 'By.xpath: //button[@title="Prendre une Mesure"]' in '100' second(s)
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure' located by 'By.xpath: //button[@title="Prendre une Mesure"]' in '100' second(s)
+
+14-02-2025T09:13:16 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure'
+
+14-02-2025T09:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure' is clicked on
+
+14-02-2025T09:13:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+14-02-2025T09:13:17 - [MESSAGE][INFO] - Delaying browser in 5 second(s)
+
+14-02-2025T09:13:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+14-02-2025T09:13:22 - [TEST_STEP][PASSED] - switch (Mesure): null
+
+14-02-2025T09:13:22 - [TEST_STEP][PASSED] - case "OQTF":: null
+
+14-02-2025T09:13:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure"), "OQTF", false, STOP_ON_FAILURE): All options with label 'OQTF' are selected in object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure' 
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure'
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure' located by 'By.xpath: //select[@id="typeMesure"]' in '20' second(s)
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure' located by 'By.xpath: //select[@id="typeMesure"]' in '20' second(s)
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Checking label parameter
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure' located by 'By.xpath: //select[@id="typeMesure"]' in '100' second(s)
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure' located by 'By.xpath: //select[@id="typeMesure"]' in '100' second(s)
+
+14-02-2025T09:13:22 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure' with label 'OQTF' 
+
+14-02-2025T09:13:23 - [MESSAGE][PASSED] - All options with label 'OQTF' are selected in object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure' 
+
+14-02-2025T09:13:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure' is clicked on
+
+14-02-2025T09:13:23 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure'
+
+14-02-2025T09:13:23 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:23 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure' located by 'By.xpath: //button[@id="btn-confirme-decision"]' in '20' second(s)
+
+14-02-2025T09:13:23 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure' located by 'By.xpath: //button[@id="btn-confirme-decision"]' in '20' second(s)
+
+14-02-2025T09:13:24 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:24 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:24 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:24 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:24 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure' located by 'By.xpath: //button[@id="btn-confirme-decision"]' in '100' second(s)
+
+14-02-2025T09:13:24 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure' located by 'By.xpath: //button[@id="btn-confirme-decision"]' in '100' second(s)
+
+14-02-2025T09:13:24 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure'
+
+14-02-2025T09:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure' is clicked on
+
+14-02-2025T09:13:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure"), 2, STOP_ON_FAILURE): Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure' is present
+
+14-02-2025T09:13:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure'
+
+14-02-2025T09:13:25 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:25 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:25 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure' located by 'By.xpath: //button[@title="Supprimer une Mesure"]' in '2' second(s)
+
+14-02-2025T09:13:25 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure' located by 'By.xpath: //button[@title="Supprimer une Mesure"]' in '2' second(s)
+
+14-02-2025T09:13:25 - [MESSAGE][PASSED] - Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure' is present
+
+14-02-2025T09:13:25 - [TEST_STEP][PASSED] - break: null
+
+14-02-2025T09:13:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure_Formulaire"), ["Mesure":Mesure, "FondementLegal":FondementLegal, "NatureDeLacteExpulsion":NatureDeLacteExpulsion, "UrgenceAbsolueExpulsion":UrgenceAbsolueExpulsion, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure_Formulaire' successfully
+
+14-02-2025T09:13:25 - [MESSAGE][INFO] - Checking called Test Case
+
+14-02-2025T09:13:25 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure_Formulaire'
+
+14-02-2025T09:13:25 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure_Formulaire: Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure_Formulaire
+
+14-02-2025T09:13:28 - [TEST_STEP][PASSED] - calendar = Calendar.getInstance(): null
+
+14-02-2025T09:13:28 - [TEST_STEP][PASSED] - currentDate = calendar.getTime(): null
+
+14-02-2025T09:13:28 - [TEST_STEP][PASSED] - sdf = new java.text.SimpleDateFormat(dd/MM/yyyy): null
+
+14-02-2025T09:13:28 - [TEST_STEP][PASSED] - formattedDate = sdf.format(currentDate): null
+
+14-02-2025T09:13:28 - [TEST_STEP][PASSED] - DateActuelle = formattedDate.toString(): null
+
+14-02-2025T09:13:28 - [TEST_STEP][PASSED] - println(DateActuelle): null
+
+14-02-2025T09:13:28 - [TEST_STEP][PASSED] - if (Mesure != "ITF"): null
+
+14-02-2025T09:13:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal"), FondementLegal, false, STOP_ON_FAILURE): All options with label 'L. 611-1 3°' are selected in object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal' 
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal'
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal' located by 'By.xpath: //select[@id="fondement_legal"]' in '20' second(s)
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal' located by 'By.xpath: //select[@id="fondement_legal"]' in '20' second(s)
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Checking label parameter
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal' located by 'By.xpath: //select[@id="fondement_legal"]' in '100' second(s)
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal' located by 'By.xpath: //select[@id="fondement_legal"]' in '100' second(s)
+
+14-02-2025T09:13:28 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal' with label 'L. 611-1 3°' 
+
+14-02-2025T09:13:29 - [MESSAGE][PASSED] - All options with label 'L. 611-1 3°' are selected in object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal' 
+
+14-02-2025T09:13:29 - [TEST_STEP][PASSED] - if (Mesure == "Expulsion"): null
+
+14-02-2025T09:13:29 - [TEST_STEP][PASSED] - NumberUsagerRandom = tools.MyStringTools.getRandomNumber(10, 99): tools.MyStringTools.getRandomNumber is PASSED
+
+14-02-2025T09:13:29 - [MESSAGE][PASSED] - tools.MyStringTools.getRandomNumber is PASSED
+
+14-02-2025T09:13:29 - [TEST_STEP][PASSED] - println(NumberUsagerRandom): null
+
+14-02-2025T09:13:29 - [TEST_STEP][PASSED] - RandomNumber = NumberUsagerRandom.toString(): null
+
+14-02-2025T09:13:29 - [TEST_STEP][PASSED] - if (Mesure == "OQTF"): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' is clicked on
+
+14-02-2025T09:13:29 - [TEST_STEP][PASSED] - if (RefuserDepartVolontaireOQTF == "false"): null
+
+14-02-2025T09:13:29 - [TEST_STEP][PASSED] - if (RefuserDepartVolontaireOQTF == "true"): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' is clicked on
+
+14-02-2025T09:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire' is clicked on
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire'
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire' located by 'By.xpath: //*[@id="ACCORDEON_DELAI_DEPART_VOLONTAIRE"]/form//app-dsfr-input-checkbox//label[contains(text(),'Refuser le délai de départ volontaire')]' in '20' second(s)
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire' located by 'By.xpath: //*[@id="ACCORDEON_DELAI_DEPART_VOLONTAIRE"]/form//app-dsfr-input-checkbox//label[contains(text(),'Refuser le délai de départ volontaire')]' in '20' second(s)
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire' located by 'By.xpath: //*[@id="ACCORDEON_DELAI_DEPART_VOLONTAIRE"]/form//app-dsfr-input-checkbox//label[contains(text(),'Refuser le délai de départ volontaire')]' in '100' second(s)
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire' located by 'By.xpath: //*[@id="ACCORDEON_DELAI_DEPART_VOLONTAIRE"]/form//app-dsfr-input-checkbox//label[contains(text(),'Refuser le délai de départ volontaire')]' in '100' second(s)
+
+14-02-2025T09:13:29 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire'
+
+14-02-2025T09:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Refuser_Delai_Depart_Volontaire' is clicked on
+
+14-02-2025T09:13:30 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+14-02-2025T09:13:30 - [MESSAGE][INFO] - Delaying browser in 10 second(s)
+
+14-02-2025T09:13:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+14-02-2025T09:13:40 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Delai_Depart_Jours"), STOP_ON_FAILURE): Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Delai_Depart_Jours' is NOT clickable
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Delai_Depart_Jours'
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Delai_Depart_Jours' located by 'By.xpath: //input[@name="nbr_jours"]' in '100' second(s)
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Delai_Depart_Jours' located by 'By.xpath: //input[@name="nbr_jours"]' in '100' second(s)
+
+14-02-2025T09:13:40 - [MESSAGE][PASSED] - Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Delai_Depart_Jours' is NOT clickable
+
+14-02-2025T09:13:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Expiration_Delai"), "-", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Expiration_Delai' are matched.
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Expiration_Delai'
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Expiration_Delai' located by 'By.xpath: /html/body/app-root/app-layout-borderless/div[3]/app-mesure-oqtf/div[2]/div[2]/div[2]/div[1]/div/div[1]/div[2]/app-accordeon-delai-depart-volontaire/section/div/form/div[2]/div[2]/p' in '100' second(s)
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Expiration_Delai' located by 'By.xpath: /html/body/app-root/app-layout-borderless/div[3]/app-mesure-oqtf/div[2]/div[2]/div[2]/div[1]/div/div[1]/div[2]/app-accordeon-delai-depart-volontaire/section/div/form/div[2]/div[2]/p' in '100' second(s)
+
+14-02-2025T09:13:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Expiration_Delai' are matched.
+
+14-02-2025T09:13:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF"), "L. 612-6", false, STOP_ON_FAILURE): All options with label 'L. 612-6' are selected in object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF' 
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF'
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF' located by 'By.xpath: //app-accordeon-ictf-irtf/section/div/form//app-dsfr-select-arr/div/select[@name="fondement_legal"]' in '20' second(s)
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF' located by 'By.xpath: //app-accordeon-ictf-irtf/section/div/form//app-dsfr-select-arr/div/select[@name="fondement_legal"]' in '20' second(s)
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Checking label parameter
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF' located by 'By.xpath: //app-accordeon-ictf-irtf/section/div/form//app-dsfr-select-arr/div/select[@name="fondement_legal"]' in '100' second(s)
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF' located by 'By.xpath: //app-accordeon-ictf-irtf/section/div/form//app-dsfr-select-arr/div/select[@name="fondement_legal"]' in '100' second(s)
+
+14-02-2025T09:13:41 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF' with label 'L. 612-6' 
+
+14-02-2025T09:13:42 - [MESSAGE][PASSED] - All options with label 'L. 612-6' are selected in object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Fondement_Legal_IRTF' 
+
+14-02-2025T09:13:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois"), "200", STOP_ON_FAILURE): Text '200' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois'
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois'
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '20' second(s)
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '20' second(s)
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Checking text
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '100' second(s)
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '100' second(s)
+
+14-02-2025T09:13:42 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois'
+
+14-02-2025T09:13:43 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:43 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '100' second(s)
+
+14-02-2025T09:13:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '100' second(s)
+
+14-02-2025T09:13:43 - [MESSAGE][INFO] - Setting text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' to value '200'
+
+14-02-2025T09:13:44 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois'
+
+14-02-2025T09:13:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Message_Erreur_Duree_IRTF"), "Attention : la durée indiquée ne correspond pas à la durée légale maximale 10 ans"): Actual text and expected text of test object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Message_Erreur_Duree_IRTF' are matched.
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Message_Erreur_Duree_IRTF'
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Message_Erreur_Duree_IRTF' located by 'By.xpath: //app-accordeon-ictf-irtf/section/div/form/div[2]//p' in '100' second(s)
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Message_Erreur_Duree_IRTF' located by 'By.xpath: //app-accordeon-ictf-irtf/section/div/form/div[2]//p' in '100' second(s)
+
+14-02-2025T09:13:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Message_Erreur_Duree_IRTF' are matched.
+
+14-02-2025T09:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois"), RandomNumber, STOP_ON_FAILURE): Text '39' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois'
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois'
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '20' second(s)
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '20' second(s)
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Checking text
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '100' second(s)
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '100' second(s)
+
+14-02-2025T09:13:44 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois'
+
+14-02-2025T09:13:45 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:45 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '100' second(s)
+
+14-02-2025T09:13:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' located by 'By.xpath: //input[@id="nbr_mois_duree_init"]' in '100' second(s)
+
+14-02-2025T09:13:45 - [MESSAGE][INFO] - Setting text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois' to value '39'
+
+14-02-2025T09:13:46 - [MESSAGE][PASSED] - Text '39' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Duree_IRTF_Mois'
+
+14-02-2025T09:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' is clicked on
+
+14-02-2025T09:13:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '20' second(s)
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '20' second(s)
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '100' second(s)
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '100' second(s)
+
+14-02-2025T09:13:47 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'
+
+14-02-2025T09:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' is clicked on
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - if (Mesure == "RemiseSchengen"): null
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - RandomNumber = tools.MyStringTools.getRandomNumber(1, 30): tools.MyStringTools.getRandomNumber is PASSED
+
+14-02-2025T09:13:48 - [MESSAGE][PASSED] - tools.MyStringTools.getRandomNumber is PASSED
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - println(RandomNumber): null
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - RandomNumberSelect = RandomNumber.toString(): null
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - if (Mesure == "TransfertDublin"): null
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - if (Mesure == "ExecutionFicheSIS"): null
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - if (Mesure == "IAT"): null
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - if (Mesure == "ITF"): null
+
+14-02-2025T09:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' is clicked on
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '20' second(s)
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '20' second(s)
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '100' second(s)
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '100' second(s)
+
+14-02-2025T09:13:48 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'
+
+14-02-2025T09:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer' is clicked on
+
+14-02-2025T09:13:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure_Formulaire' successfully
+
+14-02-2025T09:13:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure' successfully
+
+14-02-2025T09:13:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision"), ["ModeNotification":ModeNotification], STOP_ON_FAILURE): Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision' successfully
+
+14-02-2025T09:13:49 - [MESSAGE][INFO] - Checking called Test Case
+
+14-02-2025T09:13:49 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision'
+
+14-02-2025T09:13:49 - [TEST_CASE][PASSED] - Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision: Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision
+
+14-02-2025T09:13:50 - [TEST_STEP][PASSED] - calendar = Calendar.getInstance(): null
+
+14-02-2025T09:13:50 - [TEST_STEP][PASSED] - currentDate = calendar.getTime(): null
+
+14-02-2025T09:13:50 - [TEST_STEP][PASSED] - sdf = new java.text.SimpleDateFormat(dd/MM/yyyy): null
+
+14-02-2025T09:13:50 - [TEST_STEP][PASSED] - formattedDate = sdf.format(currentDate): null
+
+14-02-2025T09:13:50 - [TEST_STEP][PASSED] - DateActuelle = formattedDate.toString(): null
+
+14-02-2025T09:13:50 - [TEST_STEP][PASSED] - println(DateActuelle): null
+
+14-02-2025T09:13:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision"), 20, STOP_ON_FAILURE): Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' is clickable
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision'
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' located by 'By.xpath: //button[contains(text(),"Ajouter une décision")]' in '20' second(s)
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' located by 'By.xpath: //button[contains(text(),"Ajouter une décision")]' in '20' second(s)
+
+14-02-2025T09:13:50 - [MESSAGE][PASSED] - Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' is clickable
+
+14-02-2025T09:13:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' is clicked on
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision'
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' located by 'By.xpath: //button[contains(text(),"Ajouter une décision")]' in '20' second(s)
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' located by 'By.xpath: //button[contains(text(),"Ajouter une décision")]' in '20' second(s)
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' located by 'By.xpath: //button[contains(text(),"Ajouter une décision")]' in '100' second(s)
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' located by 'By.xpath: //button[contains(text(),"Ajouter une décision")]' in '100' second(s)
+
+14-02-2025T09:13:50 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision'
+
+14-02-2025T09:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision' is clicked on
+
+14-02-2025T09:13:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision"), 5, STOP_ON_FAILURE): Scroll to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' successfully
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision'
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' located by 'By.xpath: //button[contains(text()," Confirmer l'ajout")]' in '100' second(s)
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' located by 'By.xpath: //button[contains(text()," Confirmer l'ajout")]' in '100' second(s)
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision'
+
+14-02-2025T09:13:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' successfully
+
+14-02-2025T09:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' is clicked on
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision'
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:51 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' located by 'By.xpath: //button[contains(text()," Confirmer l'ajout")]' in '20' second(s)
+
+14-02-2025T09:13:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' located by 'By.xpath: //button[contains(text()," Confirmer l'ajout")]' in '20' second(s)
+
+14-02-2025T09:13:52 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:52 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:52 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:52 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' located by 'By.xpath: //button[contains(text()," Confirmer l'ajout")]' in '100' second(s)
+
+14-02-2025T09:13:52 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' located by 'By.xpath: //button[contains(text()," Confirmer l'ajout")]' in '100' second(s)
+
+14-02-2025T09:13:52 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision'
+
+14-02-2025T09:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision' is clicked on
+
+14-02-2025T09:13:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification"), 20, STOP_ON_FAILURE): Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' is clickable
+
+14-02-2025T09:13:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification'
+
+14-02-2025T09:13:53 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:53 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:53 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:53 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' located by 'By.xpath: //button[contains(text(),"Confirmer la notification")]' in '20' second(s)
+
+14-02-2025T09:13:53 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' located by 'By.xpath: //button[contains(text(),"Confirmer la notification")]' in '20' second(s)
+
+14-02-2025T09:13:54 - [MESSAGE][PASSED] - Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' is clickable
+
+14-02-2025T09:13:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' is clicked on
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification'
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' located by 'By.xpath: //button[contains(text(),"Confirmer la notification")]' in '20' second(s)
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' located by 'By.xpath: //button[contains(text(),"Confirmer la notification")]' in '20' second(s)
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' located by 'By.xpath: //button[contains(text(),"Confirmer la notification")]' in '100' second(s)
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' located by 'By.xpath: //button[contains(text(),"Confirmer la notification")]' in '100' second(s)
+
+14-02-2025T09:13:54 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification'
+
+14-02-2025T09:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification' is clicked on
+
+14-02-2025T09:13:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification"), ModeNotification, false, STOP_ON_FAILURE): All options with label 'Voie postale' are selected in object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification' 
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification'
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification' located by 'By.xpath: //app-notification-modal//form//app-dsfr-select/div/select[@id="mode_notification"]' in '20' second(s)
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification' located by 'By.xpath: //app-notification-modal//form//app-dsfr-select/div/select[@id="mode_notification"]' in '20' second(s)
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Checking label parameter
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification' located by 'By.xpath: //app-notification-modal//form//app-dsfr-select/div/select[@id="mode_notification"]' in '100' second(s)
+
+14-02-2025T09:13:55 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification' located by 'By.xpath: //app-notification-modal//form//app-dsfr-select/div/select[@id="mode_notification"]' in '100' second(s)
+
+14-02-2025T09:13:56 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification' with label 'Voie postale' 
+
+14-02-2025T09:13:57 - [MESSAGE][PASSED] - All options with label 'Voie postale' are selected in object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification' 
+
+14-02-2025T09:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification"), DateActuelle, STOP_ON_FAILURE): Text '14/02/2025' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification'
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification'
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification' located by 'By.xpath: //app-dsfr-input/div/input[@id="date_notification"]' in '20' second(s)
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification' located by 'By.xpath: //app-dsfr-input/div/input[@id="date_notification"]' in '20' second(s)
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Checking text
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification' located by 'By.xpath: //app-dsfr-input/div/input[@id="date_notification"]' in '100' second(s)
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification' located by 'By.xpath: //app-dsfr-input/div/input[@id="date_notification"]' in '100' second(s)
+
+14-02-2025T09:13:57 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification'
+
+14-02-2025T09:13:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:58 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification' located by 'By.xpath: //app-dsfr-input/div/input[@id="date_notification"]' in '100' second(s)
+
+14-02-2025T09:13:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification' located by 'By.xpath: //app-dsfr-input/div/input[@id="date_notification"]' in '100' second(s)
+
+14-02-2025T09:13:58 - [MESSAGE][INFO] - Setting text of object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification' to value '14/02/2025'
+
+14-02-2025T09:13:59 - [MESSAGE][PASSED] - Text '14/02/2025' is set on object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification'
+
+14-02-2025T09:13:59 - [TEST_STEP][PASSED] - if (ModeNotification == "Voie administrative"): null
+
+14-02-2025T09:13:59 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Ajouter_Fichier_Notification"), getProjectDir() + "/Data Files/Fichier_Test.pdf"): File 'C:/Users/nbenjemi/Katalon Studio/ANEF-ELOIGNEMENT-20250121/ANEF-ELOIGNEMENT-20250121/Data Files/Fichier_Test.pdf' sent to object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Ajouter_Fichier_Notification'
+
+14-02-2025T09:13:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Ajouter_Fichier_Notification'
+
+14-02-2025T09:13:59 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:13:59 - [MESSAGE][INFO] - Uploading file 'C:/Users/nbenjemi/Katalon Studio/ANEF-ELOIGNEMENT-20250121/ANEF-ELOIGNEMENT-20250121/Data Files/Fichier_Test.pdf' to object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Ajouter_Fichier_Notification'
+
+14-02-2025T09:13:59 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:13:59 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:13:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Ajouter_Fichier_Notification' located by 'By.xpath: //app-notification-modal//form//app-dsfr-piece-jointe//input' in '100' second(s)
+
+14-02-2025T09:13:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Ajouter_Fichier_Notification' located by 'By.xpath: //app-notification-modal//form//app-dsfr-piece-jointe//input' in '100' second(s)
+
+14-02-2025T09:14:00 - [MESSAGE][PASSED] - File 'C:/Users/nbenjemi/Katalon Studio/ANEF-ELOIGNEMENT-20250121/ANEF-ELOIGNEMENT-20250121/Data Files/Fichier_Test.pdf' sent to object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Ajouter_Fichier_Notification'
+
+14-02-2025T09:14:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification"), 5, STOP_ON_FAILURE): Scroll to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' successfully
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification'
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' located by 'By.xpath: //app-notification-modal//button[contains(text(),"Confirmer l'ajout")]' in '100' second(s)
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' located by 'By.xpath: //app-notification-modal//button[contains(text(),"Confirmer l'ajout")]' in '100' second(s)
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Scrolling to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification'
+
+14-02-2025T09:14:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' successfully
+
+14-02-2025T09:14:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification"), STOP_ON_FAILURE): Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' is clicked on
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification'
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' located by 'By.xpath: //app-notification-modal//button[contains(text(),"Confirmer l'ajout")]' in '20' second(s)
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' located by 'By.xpath: //app-notification-modal//button[contains(text(),"Confirmer l'ajout")]' in '20' second(s)
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' located by 'By.xpath: //app-notification-modal//button[contains(text(),"Confirmer l'ajout")]' in '100' second(s)
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' located by 'By.xpath: //app-notification-modal//button[contains(text(),"Confirmer l'ajout")]' in '100' second(s)
+
+14-02-2025T09:14:00 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification'
+
+14-02-2025T09:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification' is clicked on
+
+14-02-2025T09:14:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Enregistrer"), 7, STOP_ON_FAILURE): Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Enregistrer' is clickable
+
+14-02-2025T09:14:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Enregistrer'
+
+14-02-2025T09:14:01 - [MESSAGE][INFO] - Checking object
+
+14-02-2025T09:14:01 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:14:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+14-02-2025T09:14:01 - [MESSAGE][INFO] - Checking timeout
+
+14-02-2025T09:14:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '7' second(s)
+
+14-02-2025T09:14:02 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Enregistrer' located by 'By.xpath: //button[contains(text(),"Enregistrer")]' in '7' second(s)
+
+14-02-2025T09:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Enregistrer' is clickable
+
+14-02-2025T09:14:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision' successfully
+
+14-02-2025T09:14:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement' .
+
+14-02-2025T09:14:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-02-2025T09:12:28 - [TEST_SUITE][PASSED] - TS_ANEF_Eloignement: Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

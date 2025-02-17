@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Fichier_DDV</name>
+   <tag></tag>
+   <elementGuidId>a126ba01-bc7d-452d-994a-9abedb22f84b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout-borderless/div[3]/app-mesure-oqtf/div[2]/div[2]/div[2]/div[1]/div/div[1]/div[2]/app-accordeon-delai-depart-volontaire/section/div/form/div[3]/app-dsfr-piece-jointe/div/div[2]/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_radio_Obligation_fixee_Prefet</name>
+   <tag></tag>
+   <elementGuidId>41e3f98e-92d7-43dc-acce-9aa1f369a61a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ACCORDEON_DELAI_DEPART_VOLONTAIRE&quot;]/form//app-dsfr-radio/div/fieldset//label[contains(text(),'Oui')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

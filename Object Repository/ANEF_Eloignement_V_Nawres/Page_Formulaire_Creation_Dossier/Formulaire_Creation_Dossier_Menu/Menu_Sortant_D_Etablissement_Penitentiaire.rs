@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu_Sortant_D_Etablissement_Penitentiaire</name>
+   <tag></tag>
+   <elementGuidId>9dfeece4-961c-41f2-9e8a-9c647c18e771</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout-borderless/div[3]/app-prise-mesure/div/app-dsfr-onglet-tab/div/div[1]/app-fiche-etranger/div/div[1]/app-dsfr-sidemenu/nav/div/div/ul[9]/li/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ANEF_Eloignement,Chrome 133.0.0.0,,,13-02-2025 15:55:33,13-02-2025 15:56:33,"59,930s",FAILED
+,,,,,,,
+Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement,Chrome 133.0.0.0,,,13-02-2025 15:55:33,13-02-2025 15:56:33,"59,468s",FAILED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF""), [""Profiles"":Profiles, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour lancer URl ANEF pour Agent,,13-02-2025 15:55:35,13-02-2025 15:55:43,"8,181s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification""), [""Profiles"":Profiles, ""IdentifiantAgent"":IdentifiantAgent, ""PwAgent"":PwAgent, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour Identification Agent,,13-02-2025 15:55:43,13-02-2025 15:55:55,"12,343s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier""), [""CreationOuRecherche"":CreationOuRecherche, ""NumeroEtranger"":NumeroEtranger], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour Creation ou Recherche de dossier avec un numero etranger ,,13-02-2025 15:55:55,13-02-2025 15:56:17,"21,898s",PASSED
+"if (CreationOuRecherche == ""Creation"")",Chrome 133.0.0.0,,,13-02-2025 15:56:17,13-02-2025 15:56:17,"0,004s",PASSED
+println(NumeroEtranger),Chrome 133.0.0.0,,,13-02-2025 15:56:17,13-02-2025 15:56:17,"0,005s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure""), [""Mesure"":Mesure, ""FondementLegal"":FondementLegal, ""NatureDeLacteExpulsion"":NatureDeLacteExpulsion, ""NatureDeLacteExpulsion"":NatureDeLacteExpulsion, ... ], STOP_ON_FAILURE)",Chrome 133.0.0.0,"Appel Brique Réutilisable pour Prendre une Mesure selon les Choix : OQTF , Expulsion ,IAT ,ITF ,ExecutionFicheSIS, RemiseSchengen, TransfertDublin",,13-02-2025 15:56:17,13-02-2025 15:56:29,"11,369s",FAILED
+Video,Chrome 133.0.0.0,,,13-02-2025 15:56:33,13-02-2025 15:56:33,"0,001s",PASSED

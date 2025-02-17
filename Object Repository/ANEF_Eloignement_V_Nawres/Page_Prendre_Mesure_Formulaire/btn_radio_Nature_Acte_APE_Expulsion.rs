@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_radio_Nature_Acte_APE_Expulsion</name>
+   <tag></tag>
+   <elementGuidId>0bae442f-8e0b-4b42-8381-71f0f6974285</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ACCORDEON_FONDEMENT_LEGAL&quot;]/form//app-dsfr-radio/div/fieldset//label[contains(text(),&quot;APE&quot;)]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Expiration_Delai</name>
+   <tag></tag>
+   <elementGuidId>5e6a7aa5-b1fa-4dc5-905e-fe2daf185467</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout-borderless/div[3]/app-mesure-oqtf/div[2]/div[2]/div[2]/div[1]/div/div[1]/div[2]/app-accordeon-delai-depart-volontaire/section/div/form/div[2]/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

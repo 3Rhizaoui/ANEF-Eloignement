@@ -1,0 +1,76 @@
+1
+00:00:00,009 --> 00:00:00,198
+3. Appel Brique Réutilisable pour lancer URl ANEF pour Agent
+
+2
+00:00:00,209 --> 00:00:00,213
+5. RunConfiguration: getProjectDir for LogDriver 
+
+3
+00:00:00,215 --> 00:00:00,220
+11. RunConfiguration: getExecutionProperties Driver 
+
+4
+00:00:00,223 --> 00:00:00,228
+15. DriverName = get("WebUI").get("browserType")
+
+5
+00:00:00,231 --> 00:00:00,236
+19. println("DriverName :" + DriverName)
+
+6
+00:00:00,240 --> 00:00:00,245
+23. println("Driverpath :" + RunBrowserConfiguration.get("drivers"))
+
+7
+00:00:00,250 --> 00:00:00,254
+27. if (Profiles == "Usager")
+
+8
+00:00:00,257 --> 00:00:00,260
+31. if (Profiles == "Agent")
+
+9
+00:00:00,263 --> 00:00:00,264
+1. if (EnvExec == "URLPortailAgentQualif")
+
+10
+00:00:00,266 --> 00:00:00,270
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+11
+00:00:00,274 --> 00:00:04,141
+1. openBrowser(URLPortailAgentPreProd)
+
+12
+00:00:04,145 --> 00:00:04,184
+9. maximizeWindow()
+
+13
+00:00:04,187 --> 00:00:04,326
+9. Appel Brique Réutilisable pour Identification Agent
+
+14
+00:00:04,334 --> 00:00:04,343
+1. com.kazurayam.ksbackyard.HighlightElement.pandemic()
+
+15
+00:00:04,346 --> 00:00:04,347
+5. if (Profiles == "Usager")
+
+16
+00:00:04,350 --> 00:00:04,352
+11. Identification : Portail Agent
+
+17
+00:00:04,356 --> 00:00:04,357
+1. if (EnvExec == "URLPortailAgentQualif")
+
+18
+00:00:04,358 --> 00:00:04,359
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+19
+00:00:04,361 --> 00:00:04,582
+1. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent"), IdentifiantAgent)
+

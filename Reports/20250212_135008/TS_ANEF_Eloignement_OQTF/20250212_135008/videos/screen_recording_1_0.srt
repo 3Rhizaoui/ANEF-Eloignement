@@ -1,0 +1,132 @@
+1
+00:00:00,966 --> 00:00:02,066
+3. Appel Brique Réutilisable pour lancer URl ANEF pour Agent
+
+2
+00:00:02,081 --> 00:00:02,089
+5. RunConfiguration: getProjectDir for LogDriver 
+
+3
+00:00:02,093 --> 00:00:02,098
+11. RunConfiguration: getExecutionProperties Driver 
+
+4
+00:00:02,099 --> 00:00:02,130
+15. DriverName = get("WebUI").get("browserType")
+
+5
+00:00:02,132 --> 00:00:02,148
+19. println("DriverName :" + DriverName)
+
+6
+00:00:02,150 --> 00:00:02,156
+23. println("Driverpath :" + RunBrowserConfiguration.get("drivers"))
+
+7
+00:00:02,160 --> 00:00:02,165
+27. if (Profiles == "Usager")
+
+8
+00:00:02,167 --> 00:00:02,174
+31. if (Profiles == "Agent")
+
+9
+00:00:02,176 --> 00:00:02,180
+1. if (EnvExec == "URLPortailAgentQualif")
+
+10
+00:00:02,183 --> 00:00:07,882
+1. openBrowser(URLPortailAgentQualif)
+
+11
+00:00:07,884 --> 00:00:07,888
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+12
+00:00:07,891 --> 00:00:08,038
+9. maximizeWindow()
+
+13
+00:00:08,040 --> 00:00:08,823
+9. Appel Brique Réutilisable pour Identification Agent
+
+14
+00:00:08,825 --> 00:00:09,173
+1. com.kazurayam.ksbackyard.HighlightElement.pandemic()
+
+15
+00:00:09,175 --> 00:00:09,180
+5. if (Profiles == "Usager")
+
+16
+00:00:09,183 --> 00:00:09,186
+11. Identification : Portail Agent
+
+17
+00:00:09,188 --> 00:00:09,192
+1. if (EnvExec == "URLPortailAgentQualif")
+
+18
+00:00:09,194 --> 00:00:12,073
+1. setText(findTestObject("Object Repository/A_Version_Nawres/Page_ANEF_Connexion/Input_UserNameAgent"), IdentifiantAgent)
+
+19
+00:00:12,077 --> 00:00:14,425
+5. setText(findTestObject("Object Repository/A_Version_Nawres/Page_ANEF_Connexion/Input_PasswordAgent"), PwAgent)
+
+20
+00:00:14,428 --> 00:00:14,433
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+21
+00:00:14,435 --> 00:00:15,699
+9. click(findTestObject("Object Repository/A_Version_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent"))
+
+22
+00:00:15,701 --> 00:00:20,736
+15. delay(5)
+
+23
+00:00:20,737 --> 00:00:20,822
+19. verifyElementPresent(findTestObject("Object Repository/A_Version_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement"), 1, STOP_ON_FAILURE)
+
+24
+00:00:20,824 --> 00:00:21,151
+15. Appel Brique Réutilisable pour Creation ou Recherche de dossier avec un numero etranger 
+
+25
+00:00:21,154 --> 00:00:24,574
+3. Accèder à la page d'accueil  ANEF eloignement
+
+26
+00:00:24,577 --> 00:00:24,621
+9. Vérifier la position de la page d'accueil eloignement
+
+27
+00:00:24,622 --> 00:00:29,641
+13. delay(5)
+
+28
+00:00:29,644 --> 00:00:29,648
+19. Choisir la methode de Creation d'un nouveau dossier pour un numero etranger inexistant
+
+29
+00:00:29,651 --> 00:00:30,854
+1. click(findTestObject("Object Repository/A_Version_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier"))
+
+30
+00:00:30,856 --> 00:00:30,923
+5. NumberUsagerRandom = tools.MyStringTools.getRandomNumber(100000000, 9999999999)
+
+31
+00:00:30,925 --> 00:00:30,930
+9. println(NumberUsagerRandom)
+
+32
+00:00:30,931 --> 00:00:30,935
+13. NumberUsager = NumberUsagerRandom.toString()
+
+33
+00:00:30,937 --> 00:00:34,069
+17. setText(findTestObject("Object Repository/A_Version_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger"), NumberUsager, STOP_ON_FAILURE)
+

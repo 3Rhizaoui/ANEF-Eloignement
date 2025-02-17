@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ANEF_Ajouter_Decision_Et_Notification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>efd0800c-628d-4979-b263-1965b515eb29</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a48f802-63da-4ff0-a25a-1c84fc0f54eb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
+      <description></description>
+      <id>1a48f802-63da-4ff0-a25a-1c84fc0f54eb</id>
+      <masked>false</masked>
+      <name>ModeNotification</name>
+   </variable>
+</TestCaseEntity>

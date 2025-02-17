@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ANEF_Creation_ou_Recherche_Dossier</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>021d7fe2-21c4-4c1b-96f6-18378942fe84</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7cadad9e-bb92-48a8-bc95-444e86a4b64e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc3ceb3f-4bd5-407f-b2ac-d9e40f0eee9e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
+      <description></description>
+      <id>7cadad9e-bb92-48a8-bc95-444e86a4b64e</id>
+      <masked>false</masked>
+      <name>CreationOuRecherche</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
+      <description></description>
+      <id>cc3ceb3f-4bd5-407f-b2ac-d9e40f0eee9e</id>
+      <masked>false</masked>
+      <name>NumeroEtranger</name>
+   </variable>
+</TestCaseEntity>

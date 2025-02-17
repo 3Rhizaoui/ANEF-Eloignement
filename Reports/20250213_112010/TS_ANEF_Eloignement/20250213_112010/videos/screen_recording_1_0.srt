@@ -1,0 +1,92 @@
+1
+00:00:00,955 --> 00:00:01,895
+3. Appel Brique Réutilisable pour lancer URl ANEF pour Agent
+
+2
+00:00:01,906 --> 00:00:01,913
+5. RunConfiguration: getProjectDir for LogDriver 
+
+3
+00:00:01,914 --> 00:00:01,918
+11. RunConfiguration: getExecutionProperties Driver 
+
+4
+00:00:01,921 --> 00:00:01,947
+15. DriverName = get("WebUI").get("browserType")
+
+5
+00:00:01,949 --> 00:00:01,963
+19. println("DriverName :" + DriverName)
+
+6
+00:00:01,965 --> 00:00:01,968
+23. println("Driverpath :" + RunBrowserConfiguration.get("drivers"))
+
+7
+00:00:01,973 --> 00:00:01,977
+27. if (Profiles == "Usager")
+
+8
+00:00:01,979 --> 00:00:01,983
+31. if (Profiles == "Agent")
+
+9
+00:00:01,986 --> 00:00:01,991
+1. if (EnvExec == "URLPortailAgentQualif")
+
+10
+00:00:01,994 --> 00:00:01,998
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+11
+00:00:02,000 --> 00:00:06,838
+1. openBrowser(URLPortailAgentPreProd)
+
+12
+00:00:06,840 --> 00:00:10,523
+9. maximizeWindow()
+
+13
+00:00:10,524 --> 00:00:11,147
+9. Appel Brique Réutilisable pour Identification Agent
+
+14
+00:00:11,149 --> 00:00:11,441
+1. com.kazurayam.ksbackyard.HighlightElement.pandemic()
+
+15
+00:00:11,444 --> 00:00:11,447
+5. if (Profiles == "Usager")
+
+16
+00:00:11,450 --> 00:00:11,455
+11. Identification : Portail Agent
+
+17
+00:00:11,457 --> 00:00:11,460
+1. if (EnvExec == "URLPortailAgentQualif")
+
+18
+00:00:11,461 --> 00:00:11,465
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+19
+00:00:11,468 --> 00:00:14,019
+1. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent"), IdentifiantAgent)
+
+20
+00:00:14,021 --> 00:00:16,443
+5. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent"), PwAgent)
+
+21
+00:00:16,446 --> 00:00:17,719
+9. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent"))
+
+22
+00:00:17,723 --> 00:00:22,758
+15. delay(5)
+
+23
+00:00:22,760 --> 00:00:26,629
+19. verifyElementPresent(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement"), 1, STOP_ON_FAILURE)
+

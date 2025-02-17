@@ -1,0 +1,420 @@
+1
+00:00:00,004 --> 00:00:00,142
+3. Appel Brique Réutilisable pour lancer URl ANEF pour Agent
+
+2
+00:00:00,148 --> 00:00:00,150
+5. RunConfiguration: getProjectDir for LogDriver 
+
+3
+00:00:00,153 --> 00:00:00,156
+11. RunConfiguration: getExecutionProperties Driver 
+
+4
+00:00:00,159 --> 00:00:00,163
+15. DriverName = get("WebUI").get("browserType")
+
+5
+00:00:00,167 --> 00:00:00,169
+19. println("DriverName :" + DriverName)
+
+6
+00:00:00,173 --> 00:00:00,175
+23. println("Driverpath :" + RunBrowserConfiguration.get("drivers"))
+
+7
+00:00:00,178 --> 00:00:00,181
+27. if (Profiles == "Usager")
+
+8
+00:00:00,183 --> 00:00:00,186
+31. if (Profiles == "Agent")
+
+9
+00:00:00,189 --> 00:00:00,190
+1. if (EnvExec == "URLPortailAgentQualif")
+
+10
+00:00:00,191 --> 00:00:00,193
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+11
+00:00:00,196 --> 00:00:04,041
+1. openBrowser(URLPortailAgentPreProd)
+
+12
+00:00:04,043 --> 00:00:04,060
+9. maximizeWindow()
+
+13
+00:00:04,061 --> 00:00:04,233
+9. Appel Brique Réutilisable pour Identification Agent
+
+14
+00:00:04,236 --> 00:00:04,244
+1. com.kazurayam.ksbackyard.HighlightElement.pandemic()
+
+15
+00:00:04,246 --> 00:00:04,250
+5. if (Profiles == "Usager")
+
+16
+00:00:04,252 --> 00:00:04,254
+11. Identification : Portail Agent
+
+17
+00:00:04,259 --> 00:00:04,262
+1. if (EnvExec == "URLPortailAgentQualif")
+
+18
+00:00:04,267 --> 00:00:04,270
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+19
+00:00:04,275 --> 00:00:06,616
+1. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent"), IdentifiantAgent)
+
+20
+00:00:06,620 --> 00:00:08,898
+5. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent"), PwAgent)
+
+21
+00:00:08,901 --> 00:00:10,082
+9. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent"))
+
+22
+00:00:10,086 --> 00:00:15,101
+15. delay(5)
+
+23
+00:00:15,104 --> 00:00:15,137
+19. verifyElementPresent(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement"), 1, STOP_ON_FAILURE)
+
+24
+00:00:15,139 --> 00:00:15,230
+15. Appel Brique Réutilisable pour Creation ou Recherche de dossier avec un numero etranger 
+
+25
+00:00:15,232 --> 00:00:18,403
+3. Accèder à la page d'accueil  ANEF eloignement
+
+26
+00:00:18,405 --> 00:00:18,445
+9. Vérifier la position de la page d'accueil eloignement
+
+27
+00:00:18,448 --> 00:00:23,463
+13. delay(5)
+
+28
+00:00:23,465 --> 00:00:24,665
+19. Cliquer sur le bouton Recherche Globale
+
+29
+00:00:24,668 --> 00:00:24,670
+25. Choisir la methode de Creation d'un nouveau dossier pour un numero etranger inexistant
+
+30
+00:00:24,673 --> 00:00:24,676
+29. if (CreationOuRecherche == "Recherche")
+
+31
+00:00:24,679 --> 00:00:27,077
+1. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger"), NumeroEtranger, STOP_ON_FAILURE)
+
+32
+00:00:27,078 --> 00:00:28,263
+5. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger"), STOP_ON_FAILURE)
+
+33
+00:00:28,264 --> 00:00:28,323
+9. scrollToElement(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche"), 5, STOP_ON_FAILURE)
+
+34
+00:00:28,326 --> 00:00:29,530
+13. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche"), STOP_ON_FAILURE)
+
+35
+00:00:29,534 --> 00:00:34,553
+17. delay(5)
+
+36
+00:00:34,556 --> 00:00:34,600
+21. scrollToElement(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier"), 5, STOP_ON_FAILURE)
+
+37
+00:00:34,602 --> 00:00:35,791
+25. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier"), STOP_ON_FAILURE)
+
+38
+00:00:35,794 --> 00:00:37,219
+29. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger"), STOP_ON_FAILURE)
+
+39
+00:00:37,221 --> 00:00:37,224
+19. if (CreationOuRecherche == "Creation")
+
+40
+00:00:37,227 --> 00:00:37,233
+23. println(NumeroEtranger)
+
+41
+00:00:37,235 --> 00:00:37,353
+29. Appel Brique Réutilisable pour Prendre une Mesure selon les Choix : OQTF , Expulsion ,IAT ,ITF ,ExecutionFicheSIS, RemiseSchengen, TransfertDublin
+
+42
+00:00:37,357 --> 00:00:38,823
+1. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure"), STOP_ON_FAILURE)
+
+43
+00:00:38,827 --> 00:00:43,843
+5. delay(5)
+
+44
+00:00:43,844 --> 00:00:43,847
+9. switch (Mesure)
+
+45
+00:00:43,848 --> 00:00:43,874
+4.  Prendre Une Mesure Expulsion  
+
+46
+00:00:43,875 --> 00:00:45,041
+8. selectOptionByLabel(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure"), "Expulsion", false, STOP_ON_FAILURE)
+
+47
+00:00:45,044 --> 00:00:46,246
+14. Cliquer sur le bourron Confirmer Mesure
+
+48
+00:00:46,248 --> 00:00:47,088
+18. verifyElementPresent(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure"), 2, STOP_ON_FAILURE)
+
+49
+00:00:47,091 --> 00:00:47,093
+22. break
+
+50
+00:00:47,100 --> 00:00:47,268
+13. callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure_Formulaire"), ["Mesure":Mesure, "FondementLegal":FondementLegal, "NatureDeLacteExpulsion":NatureDeLacteExpulsion, "UrgenceAbsolueExpulsion":UrgenceAbsolueExpulsion, ... ], STOP_ON_FAILURE)
+
+51
+00:00:47,270 --> 00:00:47,271
+3. Generer la date du jour
+
+52
+00:00:47,274 --> 00:00:47,275
+7. currentDate = calendar.getTime()
+
+53
+00:00:47,277 --> 00:00:47,278
+11. sdf = new java.text.SimpleDateFormat(dd/MM/yyyy)
+
+54
+00:00:47,281 --> 00:00:47,284
+15. formattedDate = sdf.format(currentDate)
+
+55
+00:00:47,286 --> 00:00:47,287
+19. DateActuelle = formattedDate.toString()
+
+56
+00:00:47,288 --> 00:00:47,289
+23. println(DateActuelle)
+
+57
+00:00:47,291 --> 00:00:47,291
+27. if (Mesure != "ITF")
+
+58
+00:00:47,293 --> 00:00:48,479
+3. Remplir le champ Fondement Legal
+
+59
+00:00:48,481 --> 00:00:48,483
+7. if (Mesure == "Expulsion")
+
+60
+00:00:48,485 --> 00:00:48,488
+1. if (NatureDeLacteExpulsion == "AME")
+
+61
+00:00:48,490 --> 00:00:48,493
+5. if (NatureDeLacteExpulsion == "APE")
+
+62
+00:00:48,493 --> 00:00:53,508
+1. delay(5)
+
+63
+00:00:53,510 --> 00:00:54,715
+7. Choisir une Nature de l'Acte APE 
+
+64
+00:00:54,719 --> 00:00:54,768
+13. Vérifier l'autorité Decisionnaire : Préfet 
+
+65
+00:00:54,771 --> 00:00:54,820
+17. verifyElementText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Autorité_Decisionnaire"), "Préfet", STOP_ON_FAILURE)
+
+66
+00:00:54,822 --> 00:00:54,823
+9. if (UrgenceAbsolueExpulsion == "Non")
+
+67
+00:00:54,825 --> 00:00:54,826
+13. if (UrgenceAbsolueExpulsion == "Oui")
+
+68
+00:00:54,827 --> 00:00:56,025
+3. Choisir une Urgence Absolue == Oui 
+
+69
+00:00:56,029 --> 00:01:01,035
+7. delay(5)
+
+70
+00:01:01,037 --> 00:01:01,080
+13. Vérifier que les champs de l'accordeon : Décision fixant le pays de renvoi sont activés 
+
+71
+00:01:01,082 --> 00:01:01,119
+17. verifyElementClickable(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Auteur_Decision"))
+
+72
+00:01:01,120 --> 00:01:01,122
+13. Generer un numero aleatoire
+
+73
+00:01:01,123 --> 00:01:01,124
+17. println(NumberUsagerRandom)
+
+74
+00:01:01,125 --> 00:01:01,126
+21. RandomNumber = NumberUsagerRandom.toString()
+
+75
+00:01:01,128 --> 00:01:01,129
+27. Renseigner les champs de l'accordeon Fondement Legal pour un OQTF 
+
+76
+00:01:01,130 --> 00:01:01,131
+33. Renseigner les champs de l'accordeon Fondement Legal pour une Remise Schengen 
+
+77
+00:01:01,132 --> 00:01:01,133
+39. generer un nombre aleatoire entre '1' et '30'
+
+78
+00:01:01,136 --> 00:01:01,138
+43. println(RandomNumber)
+
+79
+00:01:01,140 --> 00:01:01,143
+47. RandomNumberSelect = RandomNumber.toString()
+
+80
+00:01:01,145 --> 00:01:01,145
+53. Renseigner les champs de l'accordeon Fondement Legal pour un Transfert Dublin 
+
+81
+00:01:01,147 --> 00:01:01,148
+57. if (Mesure == "ExecutionFicheSIS")
+
+82
+00:01:01,149 --> 00:01:01,150
+61. if (Mesure == "IAT")
+
+83
+00:01:01,151 --> 00:01:01,152
+31. if (Mesure == "ITF")
+
+84
+00:01:01,153 --> 00:01:02,312
+37. Enregistrer les modifications
+
+85
+00:01:02,314 --> 00:01:02,401
+33. callTestCase(findTestCase("Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision"), ["ModeNotification":ModeNotification], STOP_ON_FAILURE)
+
+86
+00:01:02,402 --> 00:01:02,403
+1. calendar = Calendar.getInstance()
+
+87
+00:01:02,404 --> 00:01:02,405
+5. currentDate = calendar.getTime()
+
+88
+00:01:02,407 --> 00:01:02,407
+9. sdf = new java.text.SimpleDateFormat(dd/MM/yyyy)
+
+89
+00:01:02,409 --> 00:01:02,410
+13. formattedDate = sdf.format(currentDate)
+
+90
+00:01:02,412 --> 00:01:02,413
+17. DateActuelle = formattedDate.toString()
+
+91
+00:01:02,415 --> 00:01:02,415
+21. println(DateActuelle)
+
+92
+00:01:02,417 --> 00:01:02,453
+27. Attendre que le bouton soit cliquable
+
+93
+00:01:02,456 --> 00:01:03,620
+33. Cliquer sur le bouton Ajouter Une Decision 
+
+94
+00:01:03,622 --> 00:01:03,667
+39. Confirmer l'Ajout de decision
+
+95
+00:01:03,672 --> 00:01:04,941
+43. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision"), STOP_ON_FAILURE)
+
+96
+00:01:04,943 --> 00:01:06,088
+49. Attendre que le bouton Confirmer Notification soit cliquable
+
+97
+00:01:06,091 --> 00:01:07,321
+55. Confirmer Notification
+
+98
+00:01:07,324 --> 00:01:08,691
+59. selectOptionByLabel(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification"), ModeNotification, false, STOP_ON_FAILURE)
+
+99
+00:01:08,697 --> 00:01:11,022
+63. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification"), DateActuelle, STOP_ON_FAILURE)
+
+100
+00:01:11,026 --> 00:01:11,029
+67. if (ModeNotification == "Voie administrative")
+
+101
+00:01:11,032 --> 00:01:13,312
+1. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Heure_Notification"), "14:30", STOP_ON_FAILURE)
+
+102
+00:01:13,315 --> 00:01:14,411
+73. Ajouter un fichier 
+
+103
+00:01:14,414 --> 00:01:14,460
+79. Confirmer l'ajout de Notification
+
+104
+00:01:14,461 --> 00:01:15,646
+83. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification"), STOP_ON_FAILURE)
+
+105
+00:01:15,651 --> 00:01:15,745
+87. waitForElementClickable(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Enregistrer"), 7, STOP_ON_FAILURE)
+

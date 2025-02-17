@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Numero_Etranger_Genere</name>
+   <tag></tag>
+   <elementGuidId>90992adb-3b59-4dd4-978a-ad0d4835355f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/app-layout-borderless//div/app-prise-mesure/div/app-dsfr-onglet-tab//div/app-fiche-etranger//div/section[2]/div/div/div[1]/p[text()]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

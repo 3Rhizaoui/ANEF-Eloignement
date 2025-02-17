@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ANEF_Eloignement_OQTF,Chrome 133.0.0.0,,,12-02-2025 13:43:05,12-02-2025 13:45:29,"2m - 24,227s",FAILED
+,,,,,,,
+Test Cases/Cas D Utilisations/A_Version_Nawres/Eloignement_OQTF,Chrome 133.0.0.0,,,12-02-2025 13:43:06,12-02-2025 13:45:29,"2m - 23,319s",FAILED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/AVersion_Nawres/ANEF_Lancer_URL_ANEF""), [""Profiles"":Profiles, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour lancer URl ANEF pour Agent,,12-02-2025 13:43:08,12-02-2025 13:43:18,"10,009s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/AVersion_Nawres/ANEF_Identification""), [""Profiles"":Profiles, ""IdentifiantAgent"":IdentifiantAgent, ""PwAgent"":PwAgent, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour Identification Agent,,12-02-2025 13:43:18,12-02-2025 13:43:32,"13,661s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/AVersion_Nawres/ANEF_Creation_ou_Recherche_Dossier""), [""CreationOuRecherche"":CreationOuRecherche], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour Creation ou Recherche de dossier avec un numero etranger ,,12-02-2025 13:43:32,12-02-2025 13:44:10,"38,021s",PASSED
+"if (CreationOuRecherche == ""Creation"")",Chrome 133.0.0.0,,,12-02-2025 13:44:10,12-02-2025 13:44:33,"23,783s",PASSED
+println(NumeroEtranger),Chrome 133.0.0.0,,,12-02-2025 13:44:33,12-02-2025 13:44:33,"0,006s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/AVersion_Nawres/ANEF_Prendre_Mesure""), [""Mesure"":Mesure, ""FondementLegal"":FondementLegal, ""NatureDeLacteExpulsion"":NatureDeLacteExpulsion, ""NatureDeLacteExpulsion"":NatureDeLacteExpulsion, ... ], STOP_ON_FAILURE)",Chrome 133.0.0.0,"Appel Brique Réutilisable pour Prendre une Mesure selon les Choix : OQTF , Expulsion ,IAT ,ITF ,ExecutionFicheSIS, RemiseSchengen, TransfertDublin",,12-02-2025 13:44:33,12-02-2025 13:45:25,"51,975s",FAILED
+Video,Chrome 133.0.0.0,,,12-02-2025 13:45:29,12-02-2025 13:45:29,"0,000s",PASSED

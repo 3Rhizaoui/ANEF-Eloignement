@@ -1,0 +1,36 @@
+1
+00:00:00,004 --> 00:00:00,144
+3. Appel Brique Réutilisable pour lancer URl ANEF pour Agent
+
+2
+00:00:00,151 --> 00:00:00,153
+5. RunConfiguration: getProjectDir for LogDriver 
+
+3
+00:00:00,155 --> 00:00:00,159
+11. RunConfiguration: getExecutionProperties Driver 
+
+4
+00:00:00,162 --> 00:00:00,165
+15. DriverName = get("WebUI").get("browserType")
+
+5
+00:00:00,168 --> 00:00:00,171
+19. println("DriverName :" + DriverName)
+
+6
+00:00:00,175 --> 00:00:00,178
+23. println("Driverpath :" + RunBrowserConfiguration.get("drivers"))
+
+7
+00:00:00,180 --> 00:00:00,182
+27. if (Profiles == "Usager")
+
+8
+00:00:00,183 --> 00:00:00,186
+31. if (Profiles == "Agent")
+
+9
+00:00:00,187 --> 00:00:00,191
+1. if (EnvExec == "URLPortailAgentQualif")
+

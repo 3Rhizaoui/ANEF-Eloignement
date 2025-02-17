@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_radio_Protection_Contre_Eloignement_Oui</name>
+   <tag></tag>
+   <elementGuidId>b2a8ff8a-cde0-45ec-b41a-3d9ebf1df879</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-accordeon-mesures-execution/section/div/app-mesure-placement-retention/form//app-dsfr-radio-arr/div/fieldset//label[contains(text(),&quot;Oui&quot;)]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,176 @@
+1
+00:00:01,180 --> 00:00:02,280
+3. Appel Brique Réutilisable pour lancer URl ANEF pour Agent
+
+2
+00:00:02,292 --> 00:00:02,298
+5. RunConfiguration: getProjectDir for LogDriver 
+
+3
+00:00:02,300 --> 00:00:02,305
+11. RunConfiguration: getExecutionProperties Driver 
+
+4
+00:00:02,309 --> 00:00:02,332
+15. DriverName = get("WebUI").get("browserType")
+
+5
+00:00:02,333 --> 00:00:02,348
+19. println("DriverName :" + DriverName)
+
+6
+00:00:02,350 --> 00:00:02,354
+23. println("Driverpath :" + RunBrowserConfiguration.get("drivers"))
+
+7
+00:00:02,363 --> 00:00:02,366
+27. if (Profiles == "Usager")
+
+8
+00:00:02,368 --> 00:00:02,374
+31. if (Profiles == "Agent")
+
+9
+00:00:02,375 --> 00:00:02,379
+1. if (EnvExec == "URLPortailAgentQualif")
+
+10
+00:00:02,381 --> 00:00:08,290
+1. openBrowser(URLPortailAgentQualif)
+
+11
+00:00:08,293 --> 00:00:08,300
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+12
+00:00:08,302 --> 00:00:09,086
+9. maximizeWindow()
+
+13
+00:00:09,093 --> 00:00:10,012
+9. Appel Brique Réutilisable pour Identification Agent
+
+14
+00:00:10,015 --> 00:00:10,410
+1. com.kazurayam.ksbackyard.HighlightElement.pandemic()
+
+15
+00:00:10,413 --> 00:00:10,416
+5. if (Profiles == "Usager")
+
+16
+00:00:10,418 --> 00:00:10,422
+11. Identification : Portail Agent
+
+17
+00:00:10,425 --> 00:00:10,427
+1. if (EnvExec == "URLPortailAgentQualif")
+
+18
+00:00:10,429 --> 00:00:13,042
+1. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_UserNameAgent"), IdentifiantAgent)
+
+19
+00:00:13,046 --> 00:00:15,338
+5. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/Input_PasswordAgent"), PwAgent)
+
+20
+00:00:15,341 --> 00:00:15,346
+5. if (EnvExec == "URLPortailAgentPreProd")
+
+21
+00:00:15,348 --> 00:00:16,594
+9. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_ANEF_Connexion/btn_Valider_Conx_Agent"))
+
+22
+00:00:16,596 --> 00:00:21,631
+15. delay(5)
+
+23
+00:00:21,633 --> 00:00:21,718
+19. verifyElementPresent(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement"), 1, STOP_ON_FAILURE)
+
+24
+00:00:21,720 --> 00:00:22,198
+15. Appel Brique Réutilisable pour Creation ou Recherche de dossier avec un numero etranger 
+
+25
+00:00:22,201 --> 00:00:24,632
+3. Accèder à la page d'accueil  ANEF eloignement
+
+26
+00:00:24,635 --> 00:00:24,709
+9. Vérifier la position de la page d'accueil eloignement
+
+27
+00:00:24,711 --> 00:00:29,728
+13. delay(5)
+
+28
+00:00:29,731 --> 00:00:30,914
+19. Cliquer sur le bouton Recherche Globale
+
+29
+00:00:30,916 --> 00:00:30,918
+25. Choisir la methode de Creation d'un nouveau dossier pour un numero etranger inexistant
+
+30
+00:00:30,920 --> 00:00:30,923
+29. if (CreationOuRecherche == "Recherche")
+
+31
+00:00:30,926 --> 00:00:33,275
+1. setText(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger"), NumeroEtranger, STOP_ON_FAILURE)
+
+32
+00:00:33,277 --> 00:00:34,495
+5. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/Input_Numero_etranger"), STOP_ON_FAILURE)
+
+33
+00:00:34,498 --> 00:00:34,564
+9. scrollToElement(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche"), 5, STOP_ON_FAILURE)
+
+34
+00:00:34,567 --> 00:00:35,808
+13. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Lancer_La_Recherche"), STOP_ON_FAILURE)
+
+35
+00:00:35,813 --> 00:00:40,831
+17. delay(5)
+
+36
+00:00:40,833 --> 00:00:40,886
+21. scrollToElement(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier"), 5, STOP_ON_FAILURE)
+
+37
+00:00:40,889 --> 00:00:42,093
+25. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier"), STOP_ON_FAILURE)
+
+38
+00:00:42,095 --> 00:00:43,578
+29. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger"), STOP_ON_FAILURE)
+
+39
+00:00:43,581 --> 00:00:43,584
+19. if (CreationOuRecherche == "Creation")
+
+40
+00:00:43,586 --> 00:00:43,590
+23. println(NumeroEtranger)
+
+41
+00:00:43,592 --> 00:00:44,336
+29. Appel Brique Réutilisable pour Prendre une Mesure selon les Choix : OQTF , Expulsion ,IAT ,ITF ,ExecutionFicheSIS, RemiseSchengen, TransfertDublin
+
+42
+00:00:44,339 --> 00:00:45,638
+1. click(findTestObject("Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Prendre_Mesure"), STOP_ON_FAILURE)
+
+43
+00:00:45,640 --> 00:00:45,647
+5. switch (Mesure)
+
+44
+00:00:45,652 --> 00:00:47,788
+4.  Prendre Une Mesure Expulsion  
+
