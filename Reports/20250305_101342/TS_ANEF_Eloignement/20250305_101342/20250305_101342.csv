@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ANEF_Eloignement,Chrome 133.0.0.0,,,05-03-2025 10:13:46,05-03-2025 10:16:07,"2m - 20,755s",FAILED
+,,,,,,,
+Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement,Chrome 133.0.0.0,,,05-03-2025 10:13:46,05-03-2025 10:16:07,"2m - 20,198s",FAILED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF""), [""Profiles"":Profiles, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour lancer URl ANEF pour Agent,,05-03-2025 10:13:48,05-03-2025 10:13:56,"7,662s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification""), [""Profiles"":Profiles, ""IdentifiantAgent"":IdentifiantAgent, ""PwAgent"":PwAgent, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour Identification Agent,,05-03-2025 10:13:56,05-03-2025 10:14:08,"12,163s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier""), [""CreationOuRecherche"":CreationOuRecherche, ""NumeroEtranger"":NumeroEtranger], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour Creation ou Recherche de dossier avec un numero etranger ,,05-03-2025 10:14:08,05-03-2025 10:14:30,"22,150s",PASSED
+"if (CreationOuRecherche == ""Creation"")",Chrome 133.0.0.0,,,05-03-2025 10:14:30,05-03-2025 10:14:30,"0,004s",PASSED
+println(NumeroEtranger),Chrome 133.0.0.0,,,05-03-2025 10:14:30,05-03-2025 10:14:30,"0,005s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure""), [""Mesure"":Mesure, ""FondementLegal"":FondementLegal, ""NatureDeLacteExpulsion"":NatureDeLacteExpulsion, ""NatureDeLacteExpulsion"":NatureDeLacteExpulsion, ... ], STOP_ON_FAILURE)",Chrome 133.0.0.0,"Appel Brique Réutilisable pour Prendre une Mesure selon les Choix : OQTF , Expulsion ,IAT ,ITF ,ExecutionFicheSIS, RemiseSchengen, TransfertDublin",,05-03-2025 10:14:30,05-03-2025 10:15:11,"40,759s",PASSED
+AbrogationRetrait = false,Chrome 133.0.0.0,,,05-03-2025 10:15:11,05-03-2025 10:15:11,"0,005s",PASSED
+"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification""), [""AbrogationRetrait"":false, ""ModeNotification"":ModeNotification], STOP_ON_FAILURE)",Chrome 133.0.0.0,,,05-03-2025 10:15:11,05-03-2025 10:16:03,"51,970s",FAILED
+Video,Chrome 133.0.0.0,,,05-03-2025 10:16:07,05-03-2025 10:16:07,"0,001s",PASSED

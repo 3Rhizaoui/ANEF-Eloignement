@@ -42,9 +42,12 @@ println(GlobalVariable.NumeroEtranger)
 'Appel Brique Réutilisable pour Prendre une Mesure selon les Choix : OQTF , Expulsion ,IAT ,ITF ,ExecutionFicheSIS, RemiseSchengen, TransfertDublin'
 WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure'), [Mesure:Mesure,FondementLegal:FondementLegal , NatureDeLacteExpulsion:NatureDeLacteExpulsion ,NatureDeLacteExpulsion:NatureDeLacteExpulsion , UrgenceAbsolueExpulsion: UrgenceAbsolueExpulsion, RefuserDepartVolontaireOQTF : RefuserDepartVolontaireOQTF , FondementLegalIRTF:FondementLegalIRTF ,DecisionEtatTransfertDublin:DecisionEtatTransfertDublin,ModeNotification:ModeNotification , NaturePeineITF:NaturePeineITF ,TypeEmprisonnement:TypeEmprisonnement , DureeITF:DureeITF], FailureHandling.STOP_ON_FAILURE)
 
+'Appel Brique Réutilisable pour Prendre une Decision + Notification'
+boolean AprogationRetrait = GlobalVariable.AprogationRetrait
+WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [AprogationRetrait : AprogationRetrait, ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
-
+"Appel Brique Réutilisable pour Prendre une Mesure d'execution"
+WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Prendre_Mesure_Execution'), [AjouterMesureExecution : AjouterMesureExecution ,TypeMesureExecution :TypeMesureExecution ,FondementLegalMesure : FondementLegalMesure ,ProtectionContreEloignement :ProtectionContreEloignement , LeveeRetention:LeveeRetention , Ajouter7JLD:Ajouter7JLD , ModeNotification:ModeNotification , DepartProgramme:DepartProgramme , ModaliteExecution:ModaliteExecution , Issue:Issue , Escorte:Escorte, AjouterVisiteDomiciliaire:AjouterVisiteDomiciliaire , FondementLegalVisite:FondementLegalVisite ,AjouterAssignationResidence : AjouterAssignationResidence , FondementAssignationResidence:FondementAssignationResidence , ReexamenExpulsion:ReexamenExpulsion , AjouterAprogationRetrait:AjouterAprogationRetrait , AprogationRetrait : AprogationRetrait , Mesure:Mesure , AjouterProlongationDDV:AjouterProlongationDDV ,AjouterProlongationIRTF :AjouterProlongationIRTF, AjouterIRTF2:AjouterIRTF2 ,RefuserDepartVolontaireOQTF:RefuserDepartVolontaireOQTF], FailureHandling.STOP_ON_FAILURE)
 
 
 

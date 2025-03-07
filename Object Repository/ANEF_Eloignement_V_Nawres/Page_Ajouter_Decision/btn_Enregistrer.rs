@@ -3,14 +3,15 @@
    <description></description>
    <name>btn_Enregistrer</name>
    <tag></tag>
-   <elementGuidId>672c2b33-433b-4e25-8c49-0e43efe4f7dc</elementGuidId>
+   <elementGuidId>d9d632a4-60eb-461f-806d-83969225f59c</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[contains(text(),&quot;Enregistrer&quot;)]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

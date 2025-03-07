@@ -3,15 +3,15 @@
    <description></description>
    <name>btn_Confirmer_Notification</name>
    <tag></tag>
-   <elementGuidId>1f30142e-3180-4959-abf2-2cf405e94abf</elementGuidId>
+   <elementGuidId>f130780b-de9e-4228-9d09-78c69fd4358c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[contains(text(),&quot;Confirmer la notification&quot;)]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(),&quot;Confirmer la notification&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

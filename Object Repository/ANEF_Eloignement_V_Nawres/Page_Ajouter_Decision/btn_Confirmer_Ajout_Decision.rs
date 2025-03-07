@@ -3,15 +3,15 @@
    <description></description>
    <name>btn_Confirmer_Ajout_Decision</name>
    <tag></tag>
-   <elementGuidId>c1ec07d1-df58-4a06-af7b-7bb62ec4ec0d</elementGuidId>
+   <elementGuidId>e4d07d4e-4797-4302-9da7-d99017dafcf0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[contains(text(),&quot; Confirmer l'ajout&quot;)]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(),&quot;Confirmer l'ajout&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

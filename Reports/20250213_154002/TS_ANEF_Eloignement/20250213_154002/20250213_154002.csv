@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TS_ANEF_Eloignement,,,,13-02-2025 15:40:12,13-02-2025 15:40:25,"12,972s",FAILED
-,,,,,,,
-Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement,,,,13-02-2025 15:40:12,13-02-2025 15:40:25,"12,273s",FAILED
-"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF""), [""Profiles"":Profiles, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",,Appel Brique Réutilisable pour lancer URl ANEF pour Agent,,13-02-2025 15:40:14,13-02-2025 15:40:22,"8,244s",FAILED
-Video,,,,13-02-2025 15:40:25,13-02-2025 15:40:25,"0,001s",PASSED

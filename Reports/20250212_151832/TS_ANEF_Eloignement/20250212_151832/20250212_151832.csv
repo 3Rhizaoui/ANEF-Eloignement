@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TS_ANEF_Eloignement,Chrome 133.0.0.0,,,12-02-2025 15:18:39,12-02-2025 15:19:36,"56,648s",FAILED
-,,,,,,,
-Test Cases/Cas D Utilisations/ANEF_Eloignement_V_Nawres/TC_ANEF_Eloignement,Chrome 133.0.0.0,,,12-02-2025 15:18:40,12-02-2025 15:19:36,"56,005s",FAILED
-"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF""), [""Profiles"":Profiles, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour lancer URl ANEF pour Agent,,12-02-2025 15:18:42,12-02-2025 15:18:51,"9,200s",PASSED
-"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Identification""), [""Profiles"":Profiles, ""IdentifiantAgent"":IdentifiantAgent, ""PwAgent"":PwAgent, ""EnvExec"":EnvExec], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour Identification Agent,,12-02-2025 15:18:51,12-02-2025 15:19:05,"13,569s",PASSED
-"callTestCase(findTestCase(""Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Creation_ou_Recherche_Dossier""), [""CreationOuRecherche"":CreationOuRecherche, ""NumeroEtranger"":NumeroEtranger], STOP_ON_FAILURE)",Chrome 133.0.0.0,Appel Brique Réutilisable pour Creation ou Recherche de dossier avec un numero etranger ,,12-02-2025 15:19:05,12-02-2025 15:19:31,"26,112s",FAILED
-Video,Chrome 133.0.0.0,,,12-02-2025 15:19:36,12-02-2025 15:19:36,"0,002s",PASSED

@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Ajouter_Fichier_Notification</name>
    <tag></tag>
-   <elementGuidId>b6a1fc57-1b04-4ea0-8557-460d138af0c8</elementGuidId>
+   <elementGuidId>00c9eed8-3b89-4c03-a53e-95825bf1a2f1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//app-notification-modal//form//app-dsfr-piece-jointe//input</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-notification-modal//app-dsfr-piece-jointe//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

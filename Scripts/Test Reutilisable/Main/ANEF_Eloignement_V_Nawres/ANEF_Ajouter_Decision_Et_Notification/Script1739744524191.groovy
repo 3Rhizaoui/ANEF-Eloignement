@@ -31,35 +31,60 @@ DateActuelle =formattedDate.toString()
 println(DateActuelle)
 
 "Attendre que le bouton soit cliquable"
-WebUI.waitForElementClickable(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision'), 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Ajouter_Decision'), 20, FailureHandling.STOP_ON_FAILURE)
 
 "Cliquer sur le bouton Ajouter Une Decision "
-WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Ajouter_Decision'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Ajouter_Decision'), FailureHandling.STOP_ON_FAILURE)
 
+boolean AprogationRetrait = GlobalVariable.AprogationRetrait
+
+if (AprogationRetrait == true) {
+	WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_radio_Decision_Eloignement_Concernee'), FailureHandling.STOP_ON_FAILURE)
+	WebUI.uploadFile(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/input_Fichier_Decision'), RunConfiguration.getProjectDir() + '/Data Files/Fichier_Test.pdf')
+	
+}
 "Confirmer l'Ajout de decision"
-WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Decision'), FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Ajout_Decision'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Ajout_Decision'), FailureHandling.STOP_ON_FAILURE)
 
 "Attendre que le bouton Confirmer Notification soit cliquable"
-WebUI.waitForElementClickable(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification'), 20, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Notification'), 20, FailureHandling.STOP_ON_FAILURE)
 
 "Confirmer Notification"
-WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Notification'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Notification'), FailureHandling.STOP_ON_FAILURE)
 
+if (AprogationRetrait == false) {
+WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/select_Mode_Notification'), ModeNotification, false, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/input_Date_Notification'), DateActuelle, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/select_Mode_Notification'), ModeNotification, false, FailureHandling.STOP_ON_FAILURE)
-WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Date_Notification'), DateActuelle, FailureHandling.STOP_ON_FAILURE)
-
-if (ModeNotification == 'Voie administrative') {
-	WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Heure_Notification'), '14:30', FailureHandling.STOP_ON_FAILURE)		
-}
+	if (ModeNotification == 'Voie administrative') {
+		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/input_Heure_Notification'), '14:30', FailureHandling.STOP_ON_FAILURE)		
+	}
 "Ajouter un fichier "
-WebUI.uploadFile(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/input_Ajouter_Fichier_Notification'), RunConfiguration.getProjectDir() + '/Data Files/Fichier_Test.pdf')
+WebUI.uploadFile(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/input_Ajouter_Fichier_Notification'), RunConfiguration.getProjectDir() + '/Data Files/Fichier_Test.pdf')
 
 "Confirmer l'ajout de Notification"
-WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Confirmer_Ajout_Notification'), FailureHandling.STOP_ON_FAILURE)
-WebUI.waitForElementClickable(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision/btn_Enregistrer'), 7, FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Ajout_Notification'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Ajout_Notification'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Enregistrer'), 7, FailureHandling.STOP_ON_FAILURE)
+}
+
+if (AprogationRetrait == true) {
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/select_Mode_Notification_Abrogation'), ModeNotification, false, FailureHandling.STOP_ON_FAILURE)
+	WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/input_Date_Notification_Abrogation'), DateActuelle, FailureHandling.STOP_ON_FAILURE)
+	
+	if (ModeNotification == 'Voie administrative') {
+		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/input_Heure_Notification_Abrogation'), '14:30', FailureHandling.STOP_ON_FAILURE)
+	}
+	"Ajouter un fichier "
+	WebUI.uploadFile(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/input_Fichier_Notification_Abrogation'), RunConfiguration.getProjectDir() + '/Data Files/Fichier_Test.pdf')
+	
+	"Confirmer l'ajout de Notification"
+	WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Ajout_Notification_Aprogation'), 5, FailureHandling.STOP_ON_FAILURE)
+	WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Ajout_Notification_Aprogation'), FailureHandling.STOP_ON_FAILURE)
+}
+
+
 
 
 

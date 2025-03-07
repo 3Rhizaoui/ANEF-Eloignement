@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_radio_Issue_NE</name>
+   <tag></tag>
+   <elementGuidId>643c9749-d3f5-4377-9678-3dc1c99d8753</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ACCORDEON_DEPART_PROGRAMME&quot;]/form//div/app-dsfr-radio-arr/div/fieldset//label[contains(text(),&quot;NE&quot;)]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

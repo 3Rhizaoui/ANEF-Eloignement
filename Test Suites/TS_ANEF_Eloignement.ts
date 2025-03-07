@@ -6,8 +6,8 @@
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>100</pageLoadTimeout>
-   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3c3c11eb-07bb-4bfe-9daa-f0ba87a03150</testSuiteGuid>
@@ -21,7 +21,7 @@
          <id>6059a781-02e9-46c3-bf1e-9336e80490eb</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-15</value>
+            <value>1-4</value>
          </iterationEntity>
          <testDataId>Data Files/DATA_ANEF_Eloignement</testDataId>
       </testDataLink>
@@ -157,6 +157,120 @@
          <type>DATA_COLUMN</type>
          <value>NumeroEtranger</value>
          <variableId>8264cd2e-3d1c-4f05-9dae-ba5cdfeff6ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterMesureExecution</value>
+         <variableId>c5d7b314-f1d1-4f09-b2f4-02fa7c93362a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TypeMesureExecution</value>
+         <variableId>e5f60a84-5eb6-4e7f-a337-57372e7d3b51</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FondementLegalMesure</value>
+         <variableId>024f0522-8646-426c-81cd-b6f9d4e1f6bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProtectionContreEloignement</value>
+         <variableId>5efc3484-2461-4abc-b021-081a484f7007</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LeveeRetention</value>
+         <variableId>dfc19061-aee8-48dc-8fcf-f033e0b435b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Ajouter7JLD</value>
+         <variableId>ed9c5a3b-b722-46c8-ab24-ad27af417aba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>DepartProgramme</value>
+         <variableId>445f5a15-8731-43b6-9f2f-8a6efab70087</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ModaliteExecution</value>
+         <variableId>6f5a076b-9f23-4956-87e9-888209295745</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Issue</value>
+         <variableId>0c6d97b7-b81d-4342-a746-b13ff15e6c79</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Escorte</value>
+         <variableId>797cf24a-2e4b-443c-9b04-ffd973db28cc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterVisiteDomiciliaire</value>
+         <variableId>0d77a152-660b-47d8-80c4-7e92cb6d7162</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FondementLegalVisite</value>
+         <variableId>a0756911-eaeb-4328-8fe9-737a8fbf1254</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterAssignationResidence</value>
+         <variableId>31283abb-5d51-4a52-9a06-0241b3fcba16</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FondementAssignationResidence</value>
+         <variableId>6413646b-59a6-4a52-a3a2-2cbb938341e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ReexamenExpulsion</value>
+         <variableId>68bb381f-8a6a-42c8-93fc-9a53e1debf32</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterAprogationRetrait</value>
+         <variableId>62ab61a4-df3e-4451-9227-f3ee161c0967</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterProlongationIRTF</value>
+         <variableId>3ca09621-d8df-4f90-bc2c-edb6137b304f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterProlongationDDV</value>
+         <variableId>ccc2019f-d493-45e3-a131-635ebe7766dd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterIRTF2</value>
+         <variableId>fcc254e9-3c38-4a8a-be39-92ada665b6d7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

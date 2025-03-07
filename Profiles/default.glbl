@@ -174,4 +174,9 @@
       <initValue>''</initValue>
       <name>NumeroEtranger</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>false</initValue>
+      <name>AprogationRetrait</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

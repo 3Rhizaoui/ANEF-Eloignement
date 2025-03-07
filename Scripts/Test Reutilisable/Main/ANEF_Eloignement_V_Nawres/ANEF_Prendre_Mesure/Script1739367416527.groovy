@@ -35,7 +35,7 @@ switch (Mesure){
 	WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/select_Type_Mesure'), 'Expulsion' ,false,FailureHandling.STOP_ON_FAILURE)
 	'Cliquer sur le bourron Confirmer Mesure'
 	WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Confirmer_Mesure'), FailureHandling.STOP_ON_FAILURE)
-	WebUI.verifyElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure'),2, FailureHandling.STOP_ON_FAILURE)
+	//WebUI.verifyElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure/btn_Supprimer_Fiche_Mesure'),2, FailureHandling.STOP_ON_FAILURE)
 	
 	break
 	

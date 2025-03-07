@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Heure_Notification</name>
    <tag></tag>
-   <elementGuidId>2e31350d-4576-4343-a3d1-d905ce42aff2</elementGuidId>
+   <elementGuidId>0ac693b0-9ec5-48f1-905e-cf16784dbd95</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//app-notification-modal//form//app-dsfr-input/div/input[@id=&quot;heure_notification&quot;]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;heure_notification&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

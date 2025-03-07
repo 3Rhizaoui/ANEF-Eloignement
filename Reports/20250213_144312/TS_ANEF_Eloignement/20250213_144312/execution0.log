@@ -1,0 +1,2929 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-03-05T08:51:29.579822600Z</date>
+  <millis>1741164689579</millis>
+  <nanos>822600</nanos>
+  <sequence>14674</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>Finding test data with id &amp;apos;Data Files/DATA_ANEF_Eloignement&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:29.604820800Z</date>
+  <millis>1741164689604</millis>
+  <nanos>820800</nanos>
+  <sequence>14675</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:29.605822Z</date>
+  <millis>1741164689605</millis>
+  <nanos>822000</nanos>
+  <sequence>14676</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Data Files\JDD Automatisation.xlsx&amp;apos; and sheet name &amp;apos;JDD&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.007873100Z</date>
+  <millis>1741164691007</millis>
+  <nanos>873100</nanos>
+  <sequence>14677</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\bin\keyword</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.008871700Z</date>
+  <millis>1741164691008</millis>
+  <nanos>871700</nanos>
+  <sequence>14678</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\bin\listener</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.008871700Z</date>
+  <millis>1741164691008</millis>
+  <nanos>871700</nanos>
+  <sequence>14679</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\bin\lib</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.008871700Z</date>
+  <millis>1741164691008</millis>
+  <nanos>871700</nanos>
+  <sequence>14680</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\bin\groovy</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.009868500Z</date>
+  <millis>1741164691009</millis>
+  <nanos>868500</nanos>
+  <sequence>14681</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\bin</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.009868500Z</date>
+  <millis>1741164691009</millis>
+  <nanos>868500</nanos>
+  <sequence>14682</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.core_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.009868500Z</date>
+  <millis>1741164691009</millis>
+  <nanos>868500</nanos>
+  <sequence>14683</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\aalto-xml-1.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.009868500Z</date>
+  <millis>1741164691009</millis>
+  <nanos>868500</nanos>
+  <sequence>14684</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\aspectjweaver-1.9.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.010872100Z</date>
+  <millis>1741164691010</millis>
+  <nanos>872100</nanos>
+  <sequence>14685</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\bcpkix-jdk15on-1.64.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.010872100Z</date>
+  <millis>1741164691010</millis>
+  <nanos>872100</nanos>
+  <sequence>14686</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\bcprov-jdk15on-1.64.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.010872100Z</date>
+  <millis>1741164691010</millis>
+  <nanos>872100</nanos>
+  <sequence>14687</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\browsermob-core-2.1.5.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.010872100Z</date>
+  <millis>1741164691010</millis>
+  <nanos>872100</nanos>
+  <sequence>14688</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\byte-buddy-1.14.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.011870700Z</date>
+  <millis>1741164691011</millis>
+  <nanos>870700</nanos>
+  <sequence>14689</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\byte-buddy-agent-1.14.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.011870700Z</date>
+  <millis>1741164691011</millis>
+  <nanos>870700</nanos>
+  <sequence>14690</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\cglib-3.2.10.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.012870600Z</date>
+  <millis>1741164691012</millis>
+  <nanos>870600</nanos>
+  <sequence>14691</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\commons-codec-1.10.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.012870600Z</date>
+  <millis>1741164691012</millis>
+  <nanos>870600</nanos>
+  <sequence>14692</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\commons-collections4-4.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.012870600Z</date>
+  <millis>1741164691012</millis>
+  <nanos>870600</nanos>
+  <sequence>14693</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\commons-validator-1.6.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.013872700Z</date>
+  <millis>1741164691013</millis>
+  <nanos>872700</nanos>
+  <sequence>14694</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\curvesapi-1.04.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.013872700Z</date>
+  <millis>1741164691013</millis>
+  <nanos>872700</nanos>
+  <sequence>14695</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\dnsjava-2.1.8.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.014886900Z</date>
+  <millis>1741164691014</millis>
+  <nanos>886900</nanos>
+  <sequence>14696</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-ant-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.014886900Z</date>
+  <millis>1741164691014</millis>
+  <nanos>886900</nanos>
+  <sequence>14697</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-astbuilder-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.014886900Z</date>
+  <millis>1741164691014</millis>
+  <nanos>886900</nanos>
+  <sequence>14698</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-cli-picocli-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.015879100Z</date>
+  <millis>1741164691015</millis>
+  <nanos>879100</nanos>
+  <sequence>14699</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-console-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.015879100Z</date>
+  <millis>1741164691015</millis>
+  <nanos>879100</nanos>
+  <sequence>14700</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-datetime-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.015879100Z</date>
+  <millis>1741164691015</millis>
+  <nanos>879100</nanos>
+  <sequence>14701</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-dateutil-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.016870400Z</date>
+  <millis>1741164691016</millis>
+  <nanos>870400</nanos>
+  <sequence>14702</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-docgenerator-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.016870400Z</date>
+  <millis>1741164691016</millis>
+  <nanos>870400</nanos>
+  <sequence>14703</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-groovydoc-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.017867600Z</date>
+  <millis>1741164691017</millis>
+  <nanos>867600</nanos>
+  <sequence>14704</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-groovysh-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.017867600Z</date>
+  <millis>1741164691017</millis>
+  <nanos>867600</nanos>
+  <sequence>14705</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-jmx-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.017867600Z</date>
+  <millis>1741164691017</millis>
+  <nanos>867600</nanos>
+  <sequence>14706</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-json-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.018876700Z</date>
+  <millis>1741164691018</millis>
+  <nanos>876700</nanos>
+  <sequence>14707</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-jsr223-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.018876700Z</date>
+  <millis>1741164691018</millis>
+  <nanos>876700</nanos>
+  <sequence>14708</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-macro-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.018876700Z</date>
+  <millis>1741164691018</millis>
+  <nanos>876700</nanos>
+  <sequence>14709</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-nio-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.019876900Z</date>
+  <millis>1741164691019</millis>
+  <nanos>876900</nanos>
+  <sequence>14710</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-servlet-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.019876900Z</date>
+  <millis>1741164691019</millis>
+  <nanos>876900</nanos>
+  <sequence>14711</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-sql-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.019876900Z</date>
+  <millis>1741164691019</millis>
+  <nanos>876900</nanos>
+  <sequence>14712</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-swing-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.019876900Z</date>
+  <millis>1741164691019</millis>
+  <nanos>876900</nanos>
+  <sequence>14713</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-templates-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.020873900Z</date>
+  <millis>1741164691020</millis>
+  <nanos>873900</nanos>
+  <sequence>14714</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-test-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.020873900Z</date>
+  <millis>1741164691020</millis>
+  <nanos>873900</nanos>
+  <sequence>14715</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-test-junit5-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.020873900Z</date>
+  <millis>1741164691020</millis>
+  <nanos>873900</nanos>
+  <sequence>14716</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-testng-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.020873900Z</date>
+  <millis>1741164691020</millis>
+  <nanos>873900</nanos>
+  <sequence>14717</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\groovy-xml-3.0.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.021870900Z</date>
+  <millis>1741164691021</millis>
+  <nanos>870900</nanos>
+  <sequence>14718</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\java-client-7.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.021870900Z</date>
+  <millis>1741164691021</millis>
+  <nanos>870900</nanos>
+  <sequence>14719</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\javax.servlet-api_3.1.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.021870900Z</date>
+  <millis>1741164691021</millis>
+  <nanos>870900</nanos>
+  <sequence>14720</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\jna-5.12.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.022871400Z</date>
+  <millis>1741164691022</millis>
+  <nanos>871400</nanos>
+  <sequence>14721</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\jna-platform-5.12.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.022871400Z</date>
+  <millis>1741164691022</millis>
+  <nanos>871400</nanos>
+  <sequence>14722</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\jzlib-1.1.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.022871400Z</date>
+  <millis>1741164691022</millis>
+  <nanos>871400</nanos>
+  <sequence>14723</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\kat-server.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.022871400Z</date>
+  <millis>1741164691022</millis>
+  <nanos>871400</nanos>
+  <sequence>14724</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\littleproxy-1.1.0-beta-bmp-17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.023878700Z</date>
+  <millis>1741164691023</millis>
+  <nanos>878700</nanos>
+  <sequence>14725</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\log4j-1.2-api-2.17.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.023878700Z</date>
+  <millis>1741164691023</millis>
+  <nanos>878700</nanos>
+  <sequence>14726</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\log4j-api-2.17.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.023878700Z</date>
+  <millis>1741164691023</millis>
+  <nanos>878700</nanos>
+  <sequence>14727</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\log4j-core-2.17.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.023878700Z</date>
+  <millis>1741164691023</millis>
+  <nanos>878700</nanos>
+  <sequence>14728</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\mitm-2.1.5.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.024879200Z</date>
+  <millis>1741164691024</millis>
+  <nanos>879200</nanos>
+  <sequence>14729</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\mockito-core-5.2.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.024879200Z</date>
+  <millis>1741164691024</millis>
+  <nanos>879200</nanos>
+  <sequence>14730</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\mockito-inline-5.2.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.024879200Z</date>
+  <millis>1741164691024</millis>
+  <nanos>879200</nanos>
+  <sequence>14731</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\netty-all-4.1.109.Final.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.024879200Z</date>
+  <millis>1741164691024</millis>
+  <nanos>879200</nanos>
+  <sequence>14732</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\objenesis-3.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.025871900Z</date>
+  <millis>1741164691025</millis>
+  <nanos>871900</nanos>
+  <sequence>14733</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\poi-3.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.025871900Z</date>
+  <millis>1741164691025</millis>
+  <nanos>871900</nanos>
+  <sequence>14734</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\poi-ooxml-3.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.025871900Z</date>
+  <millis>1741164691025</millis>
+  <nanos>871900</nanos>
+  <sequence>14735</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\poi-ooxml-schemas-3.17.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.025871900Z</date>
+  <millis>1741164691025</millis>
+  <nanos>871900</nanos>
+  <sequence>14736</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\proxy-vole-1.0.4-SNAPSHOT-jar-with-dependencies.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.026886200Z</date>
+  <millis>1741164691026</millis>
+  <nanos>886200</nanos>
+  <sequence>14737</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\repackaged-sikuli-api-1.0.2-standalone.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.026886200Z</date>
+  <millis>1741164691026</millis>
+  <nanos>886200</nanos>
+  <sequence>14738</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\selenium-leg-rc-3.141.59.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.026886200Z</date>
+  <millis>1741164691026</millis>
+  <nanos>886200</nanos>
+  <sequence>14739</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\selenium-server-standalone-3.141.59.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.027898200Z</date>
+  <millis>1741164691027</millis>
+  <nanos>898200</nanos>
+  <sequence>14740</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\selenium-shutterbug-1.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.027898200Z</date>
+  <millis>1741164691027</millis>
+  <nanos>898200</nanos>
+  <sequence>14741</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\slf4j-api-1.7.25.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.027898200Z</date>
+  <millis>1741164691027</millis>
+  <nanos>898200</nanos>
+  <sequence>14742</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\soap-builder-1.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.027898200Z</date>
+  <millis>1741164691027</millis>
+  <nanos>898200</nanos>
+  <sequence>14743</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\soap-common-1.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.027898200Z</date>
+  <millis>1741164691027</millis>
+  <nanos>898200</nanos>
+  <sequence>14744</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\soap-legacy-1.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.028881300Z</date>
+  <millis>1741164691028</millis>
+  <nanos>881300</nanos>
+  <sequence>14745</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\spring-context-5.3.19.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.028881300Z</date>
+  <millis>1741164691028</millis>
+  <nanos>881300</nanos>
+  <sequence>14746</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\stax2-api-4.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.028881300Z</date>
+  <millis>1741164691028</millis>
+  <nanos>881300</nanos>
+  <sequence>14747</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\su.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.029883800Z</date>
+  <millis>1741164691029</millis>
+  <nanos>883800</nanos>
+  <sequence>14748</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\testng-7.8.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.029883800Z</date>
+  <millis>1741164691029</millis>
+  <nanos>883800</nanos>
+  <sequence>14749</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\wadl.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.029883800Z</date>
+  <millis>1741164691029</millis>
+  <nanos>883800</nanos>
+  <sequence>14750</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\resources\lib\xmlbeans-3.1.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.029883800Z</date>
+  <millis>1741164691029</millis>
+  <nanos>883800</nanos>
+  <sequence>14751</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\net.sf.supercsv.super-csv_2.1.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.030886400Z</date>
+  <millis>1741164691030</millis>
+  <nanos>886400</nanos>
+  <sequence>14752</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.commons.io_2.4.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.030886400Z</date>
+  <millis>1741164691030</millis>
+  <nanos>886400</nanos>
+  <sequence>14753</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.commons.lang_2.6.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.031897300Z</date>
+  <millis>1741164691031</millis>
+  <nanos>897300</nanos>
+  <sequence>14754</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.google.gson_2.10.1.v20230109-0753.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.031897300Z</date>
+  <millis>1741164691031</millis>
+  <nanos>897300</nanos>
+  <sequence>14755</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.jsoup_1.14.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.031897300Z</date>
+  <millis>1741164691031</millis>
+  <nanos>897300</nanos>
+  <sequence>14756</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.commons.dbutils_1.6.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.031897300Z</date>
+  <millis>1741164691031</millis>
+  <nanos>897300</nanos>
+  <sequence>14757</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.oracle.jdbc.ojdbc7_12.1.0.2.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.031897300Z</date>
+  <millis>1741164691031</millis>
+  <nanos>897300</nanos>
+  <sequence>14758</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.postgresql.jdbc_42.7.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.031897300Z</date>
+  <millis>1741164691031</millis>
+  <nanos>897300</nanos>
+  <sequence>14759</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>c:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.eclipse.osgi_3.18.300.v20230220-1352.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.031897300Z</date>
+  <millis>1741164691031</millis>
+  <nanos>897300</nanos>
+  <sequence>14760</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.constant_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.032880800Z</date>
+  <millis>1741164691032</millis>
+  <nanos>880800</nanos>
+  <sequence>14761</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.eclipse.persistence.eclipselink_2.7.11.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.032880800Z</date>
+  <millis>1741164691032</millis>
+  <nanos>880800</nanos>
+  <sequence>14762</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.selenium-standalone_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.032880800Z</date>
+  <millis>1741164691032</millis>
+  <nanos>880800</nanos>
+  <sequence>14763</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\atu.testrecorder.screen-recorder_2.1.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.032880800Z</date>
+  <millis>1741164691032</millis>
+  <nanos>880800</nanos>
+  <sequence>14764</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.google.guava_23.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.032880800Z</date>
+  <millis>1741164691032</millis>
+  <nanos>880800</nanos>
+  <sequence>14765</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.util_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.032880800Z</date>
+  <millis>1741164691032</millis>
+  <nanos>880800</nanos>
+  <sequence>14766</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.httpcomponents.httpclient_4.5.14.v20221207-1049.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.032880800Z</date>
+  <millis>1741164691032</millis>
+  <nanos>880800</nanos>
+  <sequence>14767</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.httpcomponents.httpcore_4.4.16.v20221207-1049.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.033881500Z</date>
+  <millis>1741164691033</millis>
+  <nanos>881500</nanos>
+  <sequence>14768</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.httpcomponents.httpmime_4.5.13.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.033881500Z</date>
+  <millis>1741164691033</millis>
+  <nanos>881500</nanos>
+  <sequence>14769</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.commons.lang3_3.14.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.033881500Z</date>
+  <millis>1741164691033</millis>
+  <nanos>881500</nanos>
+  <sequence>14770</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.greenrobot.eventbus_3.1.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.033881500Z</date>
+  <millis>1741164691033</millis>
+  <nanos>881500</nanos>
+  <sequence>14771</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\net.bytebuddy.byte-buddy_1.14.15.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.033881500Z</date>
+  <millis>1741164691033</millis>
+  <nanos>881500</nanos>
+  <sequence>14772</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.junit_4.13.2.v20211018-1956.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.033881500Z</date>
+  <millis>1741164691033</millis>
+  <nanos>881500</nanos>
+  <sequence>14773</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.fasterxml.jackson.core.jackson-databind_2.17.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.033881500Z</date>
+  <millis>1741164691033</millis>
+  <nanos>881500</nanos>
+  <sequence>14774</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.fasterxml.jackson.core.jackson-core_2.17.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.033881500Z</date>
+  <millis>1741164691033</millis>
+  <nanos>881500</nanos>
+  <sequence>14775</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.fasterxml.jackson.core.jackson-annotations_2.17.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.034881700Z</date>
+  <millis>1741164691034</millis>
+  <nanos>881700</nanos>
+  <sequence>14776</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\ch.qos.logback.classic_1.2.13.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.034881700Z</date>
+  <millis>1741164691034</millis>
+  <nanos>881700</nanos>
+  <sequence>14777</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\ch.qos.logback.core_1.2.13.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.034881700Z</date>
+  <millis>1741164691034</millis>
+  <nanos>881700</nanos>
+  <sequence>14778</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\slf4j.api_1.7.36.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.034881700Z</date>
+  <millis>1741164691034</millis>
+  <nanos>881700</nanos>
+  <sequence>14779</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.fusesource.jansi_1.17.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.034881700Z</date>
+  <millis>1741164691034</millis>
+  <nanos>881700</nanos>
+  <sequence>14780</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.netlightbody_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.034881700Z</date>
+  <millis>1741164691034</millis>
+  <nanos>881700</nanos>
+  <sequence>14781</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.poi_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.034881700Z</date>
+  <millis>1741164691034</millis>
+  <nanos>881700</nanos>
+  <sequence>14782</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.commons.commons-text_1.10.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.035885500Z</date>
+  <millis>1741164691035</millis>
+  <nanos>885500</nanos>
+  <sequence>14783</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.proxyvole_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.035885500Z</date>
+  <millis>1741164691035</millis>
+  <nanos>885500</nanos>
+  <sequence>14784</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.microsoft.sqlserver.mssql-jdbc_6.2.2.jre8.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.035885500Z</date>
+  <millis>1741164691035</millis>
+  <nanos>885500</nanos>
+  <sequence>14785</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.github.kklisura.cdt.java-client_2.1.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.035885500Z</date>
+  <millis>1741164691035</millis>
+  <nanos>885500</nanos>
+  <sequence>14786</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\javax.websocket-api_1.1.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.035885500Z</date>
+  <millis>1741164691035</millis>
+  <nanos>885500</nanos>
+  <sequence>14787</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.tyrus.container-grizzly-client_1.13.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.035885500Z</date>
+  <millis>1741164691035</millis>
+  <nanos>885500</nanos>
+  <sequence>14788</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.grizzly.http-server_2.3.25.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.035885500Z</date>
+  <millis>1741164691035</millis>
+  <nanos>885500</nanos>
+  <sequence>14789</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.grizzly.framework_2.3.25.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.036884Z</date>
+  <millis>1741164691036</millis>
+  <nanos>884000</nanos>
+  <sequence>14790</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.grizzly.http_2.3.25.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.036884Z</date>
+  <millis>1741164691036</millis>
+  <nanos>884000</nanos>
+  <sequence>14791</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.tyrus.client_1.13.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.036884Z</date>
+  <millis>1741164691036</millis>
+  <nanos>884000</nanos>
+  <sequence>14792</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.tyrus.core_1.13.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.036884Z</date>
+  <millis>1741164691036</millis>
+  <nanos>884000</nanos>
+  <sequence>14793</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.tyrus.spi_1.13.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.036884Z</date>
+  <millis>1741164691036</millis>
+  <nanos>884000</nanos>
+  <sequence>14794</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\javassist_3.28.0.GA.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.037884900Z</date>
+  <millis>1741164691037</millis>
+  <nanos>884900</nanos>
+  <sequence>14795</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\graphql-java_17.5.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.037884900Z</date>
+  <millis>1741164691037</millis>
+  <nanos>884900</nanos>
+  <sequence>14796</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.jaxb.runtime_2.3.6.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.037884900Z</date>
+  <millis>1741164691037</millis>
+  <nanos>884900</nanos>
+  <sequence>14797</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.glassfish.jaxb.txw2_2.3.6.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.037884900Z</date>
+  <millis>1741164691037</millis>
+  <nanos>884900</nanos>
+  <sequence>14798</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.dom4j_2.1.4.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.037884900Z</date>
+  <millis>1741164691037</millis>
+  <nanos>884900</nanos>
+  <sequence>14799</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.groovy-extended_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.037884900Z</date>
+  <millis>1741164691037</millis>
+  <nanos>884900</nanos>
+  <sequence>14800</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.sun.activation.javax.activation_1.2.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.038884700Z</date>
+  <millis>1741164691038</millis>
+  <nanos>884700</nanos>
+  <sequence>14801</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\jakarta.xml.bind-api_2.3.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.038884700Z</date>
+  <millis>1741164691038</millis>
+  <nanos>884700</nanos>
+  <sequence>14802</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.sun.xml.bind.jaxb-impl_2.3.6.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.038884700Z</date>
+  <millis>1741164691038</millis>
+  <nanos>884700</nanos>
+  <sequence>14803</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.eclipse.jface_3.29.0.v20230214-1401.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.038884700Z</date>
+  <millis>1741164691038</millis>
+  <nanos>884700</nanos>
+  <sequence>14804</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.logging_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.038884700Z</date>
+  <millis>1741164691038</millis>
+  <nanos>884700</nanos>
+  <sequence>14805</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\json_20240303.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.038884700Z</date>
+  <millis>1741164691038</millis>
+  <nanos>884700</nanos>
+  <sequence>14806</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\assertj-core_3.25.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.038884700Z</date>
+  <millis>1741164691038</millis>
+  <nanos>884700</nanos>
+  <sequence>14807</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.commons.logging_1.2.0.v20180409-1502.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.039885700Z</date>
+  <millis>1741164691039</millis>
+  <nanos>885700</nanos>
+  <sequence>14808</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.039885700Z</date>
+  <millis>1741164691039</millis>
+  <nanos>885700</nanos>
+  <sequence>14809</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.beanshell.bsh_2.0.0.0b4.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.039885700Z</date>
+  <millis>1741164691039</millis>
+  <nanos>885700</nanos>
+  <sequence>14810</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.ant.launcher_1.9.6.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.039885700Z</date>
+  <millis>1741164691039</millis>
+  <nanos>885700</nanos>
+  <sequence>14811</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.core.appium_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.039885700Z</date>
+  <millis>1741164691039</millis>
+  <nanos>885700</nanos>
+  <sequence>14812</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.api_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.039885700Z</date>
+  <millis>1741164691039</millis>
+  <nanos>885700</nanos>
+  <sequence>14813</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.eclipse.equinox.common_3.17.100.v20230202-1341.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.039885700Z</date>
+  <millis>1741164691039</millis>
+  <nanos>885700</nanos>
+  <sequence>14814</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.testcloud.core_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.041394800Z</date>
+  <millis>1741164691041</millis>
+  <nanos>394800</nanos>
+  <sequence>14815</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.eclipse.e4.core.di.annotations_1.7.200.v20220613-1008.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.041394800Z</date>
+  <millis>1741164691041</millis>
+  <nanos>394800</nanos>
+  <sequence>14816</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.eclipse.swt_3.123.0.v20230220-1431.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.041394800Z</date>
+  <millis>1741164691041</millis>
+  <nanos>394800</nanos>
+  <sequence>14817</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.configuration.core_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.041394800Z</date>
+  <millis>1741164691041</millis>
+  <nanos>394800</nanos>
+  <sequence>14818</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.semver4j_5.3.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.041394800Z</date>
+  <millis>1741164691041</millis>
+  <nanos>394800</nanos>
+  <sequence>14819</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.core.webui_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.042411100Z</date>
+  <millis>1741164691042</millis>
+  <nanos>411100</nanos>
+  <sequence>14820</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.eclipse.e4.core.contexts_1.11.0.v20220716-0839.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.042411100Z</date>
+  <millis>1741164691042</millis>
+  <nanos>411100</nanos>
+  <sequence>14821</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.eclipse.e4.core.services_2.3.400.v20220915-1347.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.042411100Z</date>
+  <millis>1741164691042</millis>
+  <nanos>411100</nanos>
+  <sequence>14822</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.core.mobile_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.042411100Z</date>
+  <millis>1741164691042</millis>
+  <nanos>411100</nanos>
+  <sequence>14823</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.commons.commons-validator_1.7.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.043404400Z</date>
+  <millis>1741164691043</millis>
+  <nanos>404400</nanos>
+  <sequence>14824</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.core.cucumber_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.043404400Z</date>
+  <millis>1741164691043</millis>
+  <nanos>404400</nanos>
+  <sequence>14825</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.core_3.0.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.043404400Z</date>
+  <millis>1741164691043</millis>
+  <nanos>404400</nanos>
+  <sequence>14826</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.datatable_1.1.15.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.043404400Z</date>
+  <millis>1741164691043</millis>
+  <nanos>404400</nanos>
+  <sequence>14827</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.datatable-dependencies_1.1.15.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.043404400Z</date>
+  <millis>1741164691043</millis>
+  <nanos>404400</nanos>
+  <sequence>14828</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.expressions_5.0.19.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.044406400Z</date>
+  <millis>1741164691044</millis>
+  <nanos>406400</nanos>
+  <sequence>14829</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.gherkin_5.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.044406400Z</date>
+  <millis>1741164691044</millis>
+  <nanos>406400</nanos>
+  <sequence>14830</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.html_0.2.7.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.044406400Z</date>
+  <millis>1741164691044</millis>
+  <nanos>406400</nanos>
+  <sequence>14831</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.java_3.0.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.044406400Z</date>
+  <millis>1741164691044</millis>
+  <nanos>406400</nanos>
+  <sequence>14832</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.tag-expressions_1.1.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.044406400Z</date>
+  <millis>1741164691044</millis>
+  <nanos>406400</nanos>
+  <sequence>14833</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\io.cucumber.junit_3.0.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.045408700Z</date>
+  <millis>1741164691045</millis>
+  <nanos>408700</nanos>
+  <sequence>14834</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.core.webservice_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.045408700Z</date>
+  <millis>1741164691045</millis>
+  <nanos>408700</nanos>
+  <sequence>14835</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\wsdl4j_1.6.2.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.045408700Z</date>
+  <millis>1741164691045</millis>
+  <nanos>408700</nanos>
+  <sequence>14836</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.google.oauth-client.google-oauth-client_1.22.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.046404400Z</date>
+  <millis>1741164691046</millis>
+  <nanos>404400</nanos>
+  <sequence>14837</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.google.http-client.google-http-client_1.22.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.046404400Z</date>
+  <millis>1741164691046</millis>
+  <nanos>404400</nanos>
+  <sequence>14838</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\ca.juliusdavies.not-yet-commons-ssl_0.3.11.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.046404400Z</date>
+  <millis>1741164691046</millis>
+  <nanos>404400</nanos>
+  <sequence>14839</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.preferences_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.046404400Z</date>
+  <millis>1741164691046</millis>
+  <nanos>404400</nanos>
+  <sequence>14840</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.apache.xmlbeans_3.1.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.047404100Z</date>
+  <millis>1741164691047</millis>
+  <nanos>404100</nanos>
+  <sequence>14841</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.entity_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.047404100Z</date>
+  <millis>1741164691047</millis>
+  <nanos>404100</nanos>
+  <sequence>14842</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.antlr.antlr4-runtime_4.9.2.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.047404100Z</date>
+  <millis>1741164691047</millis>
+  <nanos>404100</nanos>
+  <sequence>14843</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.networknt.json-schema-validator_1.0.66.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.048406800Z</date>
+  <millis>1741164691048</millis>
+  <nanos>406800</nanos>
+  <sequence>14844</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\jakarta.xml.ws-api_2.3.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.048406800Z</date>
+  <millis>1741164691048</millis>
+  <nanos>406800</nanos>
+  <sequence>14845</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\javax.xml.soap-api_1.4.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.048406800Z</date>
+  <millis>1741164691048</millis>
+  <nanos>406800</nanos>
+  <sequence>14846</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.core.windows_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.048406800Z</date>
+  <millis>1741164691048</millis>
+  <nanos>406800</nanos>
+  <sequence>14847</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\com.kms.katalon.core.testng_1.0.0.202406140959.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.049405900Z</date>
+  <millis>1741164691049</millis>
+  <nanos>405900</nanos>
+  <sequence>14848</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\apache-httpcomponents-httpclient-cache.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.049405900Z</date>
+  <millis>1741164691049</millis>
+  <nanos>405900</nanos>
+  <sequence>14849</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\apache-httpcomponents-httpclient.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.049405900Z</date>
+  <millis>1741164691049</millis>
+  <nanos>405900</nanos>
+  <sequence>14850</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\apache-httpcomponents-httpcore.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.049405900Z</date>
+  <millis>1741164691049</millis>
+  <nanos>405900</nanos>
+  <sequence>14851</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\apache-httpcomponents-httpmime.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.049405900Z</date>
+  <millis>1741164691049</millis>
+  <nanos>405900</nanos>
+  <sequence>14852</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\bson-3.4.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.049405900Z</date>
+  <millis>1741164691049</millis>
+  <nanos>405900</nanos>
+  <sequence>14853</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\bson-4.10.2.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.050401500Z</date>
+  <millis>1741164691050</millis>
+  <nanos>401500</nanos>
+  <sequence>14854</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\bson-record-codec-4.10.2.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.050401500Z</date>
+  <millis>1741164691050</millis>
+  <nanos>401500</nanos>
+  <sequence>14855</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\commons-codec-1.12.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.050401500Z</date>
+  <millis>1741164691050</millis>
+  <nanos>401500</nanos>
+  <sequence>14856</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\commons-logging-1.2.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.050401500Z</date>
+  <millis>1741164691050</millis>
+  <nanos>401500</nanos>
+  <sequence>14857</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\http-client-builder-2.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.050401500Z</date>
+  <millis>1741164691050</millis>
+  <nanos>401500</nanos>
+  <sequence>14858</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\HTTPClient-0.3-3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.050401500Z</date>
+  <millis>1741164691050</millis>
+  <nanos>401500</nanos>
+  <sequence>14859</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpclient-4.5.14.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.050401500Z</date>
+  <millis>1741164691050</millis>
+  <nanos>401500</nanos>
+  <sequence>14860</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpclient5-5.0-beta4.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.050401500Z</date>
+  <millis>1741164691050</millis>
+  <nanos>401500</nanos>
+  <sequence>14861</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpclient5-5.3-alpha1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.051403200Z</date>
+  <millis>1741164691051</millis>
+  <nanos>403200</nanos>
+  <sequence>14862</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpcore-4.4.16.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.051403200Z</date>
+  <millis>1741164691051</millis>
+  <nanos>403200</nanos>
+  <sequence>14863</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpcore-4.4.3.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.051403200Z</date>
+  <millis>1741164691051</millis>
+  <nanos>403200</nanos>
+  <sequence>14864</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpcore5-5.0-beta4.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.051403200Z</date>
+  <millis>1741164691051</millis>
+  <nanos>403200</nanos>
+  <sequence>14865</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpcore5-5.0-beta7.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.052404100Z</date>
+  <millis>1741164691052</millis>
+  <nanos>404100</nanos>
+  <sequence>14866</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpcore5-5.2.2.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.052404100Z</date>
+  <millis>1741164691052</millis>
+  <nanos>404100</nanos>
+  <sequence>14867</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpcore5-h2-5.0-beta7.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.052404100Z</date>
+  <millis>1741164691052</millis>
+  <nanos>404100</nanos>
+  <sequence>14868</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpcore5-h2-5.2.2.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.052404100Z</date>
+  <millis>1741164691052</millis>
+  <nanos>404100</nanos>
+  <sequence>14869</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\httpmime-4.5.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.052404100Z</date>
+  <millis>1741164691052</millis>
+  <nanos>404100</nanos>
+  <sequence>14870</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\pdfbox-app-2.0.29.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.053406300Z</date>
+  <millis>1741164691053</millis>
+  <nanos>406300</nanos>
+  <sequence>14871</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\reactive-streams-1.0.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.053406300Z</date>
+  <millis>1741164691053</millis>
+  <nanos>406300</nanos>
+  <sequence>14872</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\selenium-4.4.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.053406300Z</date>
+  <millis>1741164691053</millis>
+  <nanos>406300</nanos>
+  <sequence>14873</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\selenium-4.8.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.053406300Z</date>
+  <millis>1741164691053</millis>
+  <nanos>406300</nanos>
+  <sequence>14874</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Drivers\slf4j-api-1.7.36.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.054410900Z</date>
+  <millis>1741164691054</millis>
+  <nanos>410900</nanos>
+  <sequence>14875</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\plugin\install\243086\1.0.1\katalon-studio-chrome-devtools-protocol-plugin.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.054410900Z</date>
+  <millis>1741164691054</millis>
+  <nanos>410900</nanos>
+  <sequence>14876</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\org.eclipse.osgi\32\0\.cp\resources\basic-report\katalon-studio-report-plugin.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.054410900Z</date>
+  <millis>1741164691054</millis>
+  <nanos>410900</nanos>
+  <sequence>14877</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\plugin\install\243083\1.0.0\VueJSRichTextEditorKeywords.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.054410900Z</date>
+  <millis>1741164691054</millis>
+  <nanos>410900</nanos>
+  <sequence>14878</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\plugin\install\243085\1.0.2\ExcelKeywords.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.055406500Z</date>
+  <millis>1741164691055</millis>
+  <nanos>406500</nanos>
+  <sequence>14879</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\plugin\install\243084\2.0.0\WebSocketPlugIn.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.055406500Z</date>
+  <millis>1741164691055</millis>
+  <nanos>406500</nanos>
+  <sequence>14880</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\plugin\install\243082\1.0.1\DropdownAngularJS.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.055406500Z</date>
+  <millis>1741164691055</millis>
+  <nanos>406500</nanos>
+  <sequence>14881</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\plugin\install\243080\0.1.1\shadow-automation-katalon-plugin-all.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.055406500Z</date>
+  <millis>1741164691055</millis>
+  <nanos>406500</nanos>
+  <sequence>14882</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\configuration\plugin\install\243079\1.2.0\Katalon Gmail.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.055406500Z</date>
+  <millis>1741164691055</millis>
+  <nanos>406500</nanos>
+  <sequence>14883</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Plugins\kazurayam-ks-highlightelement-0.6.0.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.055406500Z</date>
+  <millis>1741164691055</millis>
+  <nanos>406500</nanos>
+  <sequence>14884</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.codehaus.groovy_3.0.17.v202303311542-e2303\lib\groovy-3.0.17-indy.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.056408300Z</date>
+  <millis>1741164691056</millis>
+  <nanos>408300</nanos>
+  <sequence>14885</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.codehaus.groovy_3.0.17.v202303311542-e2303\lib\groovy-test-3.0.17-indy.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:51:31.056408300Z</date>
+  <millis>1741164691056</millis>
+  <nanos>408300</nanos>
+  <sequence>14886</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2220</thread>
+  <message>C:\Users\nbenjemi\.katalon\packages\Katalon_Studio_Windows_64-9.6.0\Katalon_Studio_Windows_64-9.6.0\plugins\org.codehaus.groovy_3.0.17.v202303311542-e2303\lib\ivy-2.5.1.jar</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:16.203458900Z</date>
+  <millis>1741164916203</millis>
+  <nanos>458900</nanos>
+  <sequence>15153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2318</thread>
+  <message>Finding test data with id &amp;apos;Data Files/DATA_ANEF_Eloignement&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:16.206459700Z</date>
+  <millis>1741164916206</millis>
+  <nanos>459700</nanos>
+  <sequence>15154</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2318</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:16.206459700Z</date>
+  <millis>1741164916206</millis>
+  <nanos>459700</nanos>
+  <sequence>15155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2318</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Data Files\JDD Automatisation.xlsx&amp;apos; and sheet name &amp;apos;JDD&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:28.025470100Z</date>
+  <millis>1741164928025</millis>
+  <nanos>470100</nanos>
+  <sequence>15158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2452</thread>
+  <message>Finding test data with id &amp;apos;Data Files/DATA_ANEF_Eloignement&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:28.026472900Z</date>
+  <millis>1741164928026</millis>
+  <nanos>472900</nanos>
+  <sequence>15159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2452</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:28.026472900Z</date>
+  <millis>1741164928026</millis>
+  <nanos>472900</nanos>
+  <sequence>15160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2452</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Data Files\JDD Automatisation.xlsx&amp;apos; and sheet name &amp;apos;JDD&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:38.480887300Z</date>
+  <millis>1741164938480</millis>
+  <nanos>887300</nanos>
+  <sequence>15163</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2514</thread>
+  <message>Finding test data with id &amp;apos;Data Files/DATA_ANEF_Eloignement&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:38.481886500Z</date>
+  <millis>1741164938481</millis>
+  <nanos>886500</nanos>
+  <sequence>15164</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2514</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:38.482882800Z</date>
+  <millis>1741164938482</millis>
+  <nanos>882800</nanos>
+  <sequence>15165</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2514</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Data Files\JDD Automatisation.xlsx&amp;apos; and sheet name &amp;apos;JDD&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:54.917670Z</date>
+  <millis>1741164954917</millis>
+  <nanos>670000</nanos>
+  <sequence>15168</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2452</thread>
+  <message>Finding test data with id &amp;apos;Data Files/DATA_ANEF_Eloignement&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:54.919798700Z</date>
+  <millis>1741164954919</millis>
+  <nanos>798700</nanos>
+  <sequence>15169</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2452</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-03-05T08:55:54.919798700Z</date>
+  <millis>1741164954919</millis>
+  <nanos>798700</nanos>
+  <sequence>15170</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2452</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\nbenjemi\Katalon Studio\ANEF_Eloignement_V1_Nawres\ANEF-Eloignement\ANEF_Eloignement_V1_Nawres\Data Files\JDD Automatisation.xlsx&amp;apos; and sheet name &amp;apos;JDD&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

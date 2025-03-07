@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_radio_Decision_Abrogation_Oui</name>
+   <tag></tag>
+   <elementGuidId>ce90d238-07c2-48cd-bee1-6fa4fff095db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-accordeon-reexamen-arrete-expulsion/section//div/app-dsfr-radio-arr/div/fieldset//label[contains(text(),'Oui')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -3,15 +3,15 @@
    <description></description>
    <name>select_Mode_Notification</name>
    <tag></tag>
-   <elementGuidId>e9a90fec-5241-48bc-8666-8a3e2e5afa0e</elementGuidId>
+   <elementGuidId>4ff2012f-f4a2-4cc3-b778-2a9d6dfdda11</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//app-notification-modal//form//app-dsfr-select/div/select[@id=&quot;mode_notification&quot;]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id=&quot;mode_notification&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

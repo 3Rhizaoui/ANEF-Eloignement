@@ -3,14 +3,15 @@
    <description></description>
    <name>input_Date_Notification</name>
    <tag></tag>
-   <elementGuidId>82a3431f-3f6f-4749-b01a-60568c26a741</elementGuidId>
+   <elementGuidId>3b7d31f2-51f2-4a65-9b40-e80110bb1dbe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//app-notification-modal//form//app-dsfr-input/div/input[@name=&quot;date_notification&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;date_notification&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

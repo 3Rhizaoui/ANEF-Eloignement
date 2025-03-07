@@ -3,15 +3,15 @@
    <description></description>
    <name>btn_Confirmer_Ajout_Notification</name>
    <tag></tag>
-   <elementGuidId>e9a64e18-8de4-48f9-820f-7ee62a04f17f</elementGuidId>
+   <elementGuidId>59b560fa-1093-4281-9d5e-8505f89eed31</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//app-notification-modal//button[contains(text(),&quot;Confirmer l'ajout&quot;)]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id=&quot;btn-notif-confirme-ajout&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
