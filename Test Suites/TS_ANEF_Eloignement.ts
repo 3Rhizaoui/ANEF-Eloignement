@@ -21,7 +21,7 @@
          <id>6059a781-02e9-46c3-bf1e-9336e80490eb</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-4</value>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/DATA_ANEF_Eloignement</testDataId>
       </testDataLink>
@@ -191,13 +191,13 @@
       <variableLink>
          <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Ajouter7JLD</value>
+         <value>AjouterJLD</value>
          <variableId>ed9c5a3b-b722-46c8-ab24-ad27af417aba</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>DepartProgramme</value>
+         <value>AjouterDepartProgramme</value>
          <variableId>445f5a15-8731-43b6-9f2f-8a6efab70087</variableId>
       </variableLink>
       <variableLink>
@@ -221,7 +221,7 @@
       <variableLink>
          <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>AjouterVisiteDomiciliaire</value>
+         <value>AjouterVisiteDomiciliare</value>
          <variableId>0d77a152-660b-47d8-80c4-7e92cb6d7162</variableId>
       </variableLink>
       <variableLink>
@@ -251,7 +251,7 @@
       <variableLink>
          <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>AjouterAprogationRetrait</value>
+         <value>AjouterAprogationretrait</value>
          <variableId>62ab61a4-df3e-4451-9227-f3ee161c0967</variableId>
       </variableLink>
       <variableLink>

@@ -5,3 +5,7 @@
 /.classpath
 .svn/
 .cache/
+
+# Ignorer les répertoires de rapports
+Reports/
+**/Reports/
