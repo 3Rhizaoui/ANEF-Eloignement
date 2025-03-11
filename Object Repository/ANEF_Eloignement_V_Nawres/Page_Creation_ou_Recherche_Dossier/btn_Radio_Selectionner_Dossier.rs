@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//app-search-etranger/app-search-result-etranger//table/tbody/tr//label</value>
+         <value>//app-search-etranger/app-search-result-etranger//table/tbody/tr//label | //app-search-result-etranger-fpr-sis/div//table//span/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
