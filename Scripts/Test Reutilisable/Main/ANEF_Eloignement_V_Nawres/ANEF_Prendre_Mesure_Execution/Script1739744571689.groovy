@@ -153,45 +153,7 @@ if ( AjouterMesureExecution == 'True') {
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Lieu_Retention'), '0751-PARIS 1 (ENPP)-CRA' ,false,FailureHandling.STOP_ON_FAILURE)
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
 		}
-		"Ajouter un depart Programmé"
-	if( DepartProgramme =="Oui")	{
-		"Cliquer sur l'accordeon Depart programmé "
-		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/acc_Depart_Programme'), FailureHandling.STOP_ON_FAILURE)
-		WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Type_Vecteur'), 1 ,FailureHandling.STOP_ON_FAILURE)
-		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Accuse_Reception'), '17/02/2025', FailureHandling.STOP_ON_FAILURE)
-		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Depart_Programmee'), '17/02/2025', FailureHandling.STOP_ON_FAILURE)
-		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Heure_Depart_Programmee'), '10:30', FailureHandling.STOP_ON_FAILURE)
 		
-		if( ModaliteExecution=="RetourForce") {
-			"Retour Forcé "
-			WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Modalite_Execution'), 'Retour forcé' ,false,FailureHandling.STOP_ON_FAILURE)
-			if (Escorte=="Oui") {WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Escorte_Oui'), FailureHandling.STOP_ON_FAILURE)}
-			if (Escorte=="Non") {WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Escorte_Non'), FailureHandling.STOP_ON_FAILURE)}
-			}
-		if(ModaliteExecution=="RetourVolontaire") {
-			" Retour volontaire  "
-			WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Modalite_Execution'), 'Retour volontaire' ,false,FailureHandling.STOP_ON_FAILURE)
-				
-			}
-		if (Issue=="NE") {
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Issue_NE'), FailureHandling.STOP_ON_FAILURE)
-			WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Motif_Non_Embarquement'), 3 ,FailureHandling.STOP_ON_FAILURE)
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
-			
-			}
-		if (Issue=="BE") {
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Issue_BE'), FailureHandling.STOP_ON_FAILURE)
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Execution_Mesure'), FailureHandling.STOP_ON_FAILURE)
-			
-			
-		}
-		if (Issue=="ANNULE") {
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Issue_ANNULE'), FailureHandling.STOP_ON_FAILURE)}
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
-		}
-		
-	}
 	if(TypeMesureExecution == 'Visite domiciliaire' || AjouterVisiteDomiciliaire == "Oui") {
 		
 		"Cliquer sur l'accordeon Mesure Execution"
@@ -282,12 +244,51 @@ if ( AjouterMesureExecution == 'True') {
 	if(AjouterAprogationRetrait=="Oui") {
 		
 		GlobalVariable.AprogationRetrait = true
-		boolean AprogationRetrait = GlobalVariable.AprogationRetrait
+		//boolean AprogationRetrait = GlobalVariable.AprogationRetrait
 		println(AprogationRetrait)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/acc_Aprogation_Retrait'), FailureHandling.STOP_ON_FAILURE)
 		
-		WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : GlobalVariable.AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
 		
+		}
+		"Ajouter un depart Programmé"
+		if( DepartProgramme =="Oui")	{
+			"Cliquer sur l'accordeon Depart programmé "
+			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/acc_Depart_Programme'), FailureHandling.STOP_ON_FAILURE)
+			WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Type_Vecteur'), 1 ,FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Accuse_Reception'), '17/02/2025', FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Depart_Programmee'), '17/02/2025', FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Heure_Depart_Programmee'), '10:30', FailureHandling.STOP_ON_FAILURE)
+			
+			if( ModaliteExecution=="RetourForce") {
+				"Retour Forcé "
+				WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Modalite_Execution'), 'Retour forcé' ,false,FailureHandling.STOP_ON_FAILURE)
+				if (Escorte=="Oui") {WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Escorte_Oui'), FailureHandling.STOP_ON_FAILURE)}
+				if (Escorte=="Non") {WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Escorte_Non'), FailureHandling.STOP_ON_FAILURE)}
+				}
+			if(ModaliteExecution=="RetourVolontaire") {
+				" Retour volontaire  "
+				WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Modalite_Execution'), 'Retour volontaire' ,false,FailureHandling.STOP_ON_FAILURE)
+					
+				}
+			if (Issue=="NE") {
+				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Issue_NE'), FailureHandling.STOP_ON_FAILURE)
+				WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Motif_Non_Embarquement'), 3 ,FailureHandling.STOP_ON_FAILURE)
+				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+				
+				}
+			if (Issue=="BE") {
+				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Issue_BE'), FailureHandling.STOP_ON_FAILURE)
+				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Execution_Mesure'), FailureHandling.STOP_ON_FAILURE)
+				
+				
+			}
+			if (Issue=="ANNULE") {
+				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Issue_ANNULE'), FailureHandling.STOP_ON_FAILURE)}
+				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+			}
+			
 		}
 		
 	if(Mesure =="OQTF") {

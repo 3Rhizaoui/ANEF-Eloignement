@@ -55,7 +55,7 @@ if (CreationOuRecherche == 'Recherche') {
 	WebUI.delay(5)
 	WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier'), 5, FailureHandling.STOP_ON_FAILURE)
 	WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Radio_Selectionner_Dossier'), FailureHandling.STOP_ON_FAILURE)
-	WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger'), FailureHandling.STOP_ON_FAILURE)
+	//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Choisir_Dossier_Etranger'), FailureHandling.STOP_ON_FAILURE)
 	
 	
 }
