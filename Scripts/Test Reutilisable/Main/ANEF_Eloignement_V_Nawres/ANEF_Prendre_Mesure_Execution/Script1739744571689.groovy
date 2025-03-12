@@ -260,9 +260,9 @@ if ( AjouterMesureExecution == 'True') {
 			"Cliquer sur l'accordeon Depart programmé "
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/acc_Depart_Programme'), FailureHandling.STOP_ON_FAILURE)
 			WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Type_Vecteur'), 1 ,FailureHandling.STOP_ON_FAILURE)
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Accuse_Reception'), '17/02/2025', FailureHandling.STOP_ON_FAILURE)
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Depart_Programmee'), '17/02/2025', FailureHandling.STOP_ON_FAILURE)
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Heure_Depart_Programmee'), '10:30', FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Accuse_Reception'), '10032025', FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Depart_Programmee'), '11032025', FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Heure_Depart_Programmee'), '1030', FailureHandling.STOP_ON_FAILURE)
 			
 			if( ModaliteExecution=="RetourForce") {
 				"Retour Forcé "
