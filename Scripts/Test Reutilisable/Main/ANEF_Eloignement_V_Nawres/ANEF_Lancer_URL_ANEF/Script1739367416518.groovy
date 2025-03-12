@@ -198,7 +198,7 @@ if (Profiles == 'Usager') {
             //			println "GlobalVariable.downloadPath :" + GlobalVariable.downloadPath
             //			String projectDir = (RunConfiguration.getProjectDir()+ "/Data Files/Downloads/").replace(/\//, '\\\\')
             //			println "projectDir :" + projectDir
-            //			String JsonTxt = '{'+'"CHROME_DRIVER"'+':{'+'"args"'+':['+'"--incognito"'+','+'"--start-maximized"'+'],'+'"prefs"'+':{'+'"download.default_directory"'+':'+'"'+ projectDir+'"'+','+'"download_dir"'+':'+'"'+projectDir+'"'+','+'"download.prompt_for_download"'+':false}}}'
+            //			String JsonTxt = '{'+'"CHROME_DRIVER"'+':{'+'"args"'+':['+'"--incognito"'+','+'"--start-//WebUI.maximizeWindow()ized"'+'],'+'"prefs"'+':{'+'"download.default_directory"'+':'+'"'+ projectDir+'"'+','+'"download_dir"'+':'+'"'+projectDir+'"'+','+'"download.prompt_for_download"'+':false}}}'
             //			String fileName = "com.kms.katalon.core.webui.chrome.properties"
             //			
             //			CustomKeywords.'tools.JsonWriter.WriterFile'(JsonTxt, fileName)
@@ -209,7 +209,7 @@ if (Profiles == 'Usager') {
 
             WebUI.openBrowser(GlobalVariable.URL_ANEFQualif)
 
-            WebUI.maximizeWindow()
+            //WebUI.//WebUI.maximizeWindow()izeWindow()
 
             //System.setProperty("webdriver.chrome.logfile", "'" +  projDir + "'" + "./chromedriver.log");
             //System.setProperty("webdriver.chrome.verboseLogging", "true");
@@ -227,7 +227,7 @@ if (Profiles == 'Usager') {
 
             WebUI.navigateToUrl(GlobalVariable.URL_ANEFQualif)
 
-            WebUI.maximizeWindow()
+            //WebUI.//WebUI.maximizeWindow()izeWindow()
 
             //			System.setProperty("webdriver.chrome.logfile", "'" +  projDir + "'" + "./chromedriver.log");
             //			System.setProperty("webdriver.chrome.verboseLogging", "true");
@@ -246,7 +246,7 @@ if (Profiles == 'Usager') {
             WebUI.navigateToUrl(GlobalVariable.URL_ANEFQualif)
 
             //WebUI.openBrowser(GlobalVariable.URL_ANEFQualif)
-            WebUI.maximizeWindow()
+            //WebUI.//WebUI.maximizeWindow()izeWindow()
 
             'Appel de l\'action Réutilisable pour contourner l\'erreur lié à la confidentialité'
             WebUI.callTestCase(findTestCase('Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/Erreur_lie_a_la_confidentialite'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -263,7 +263,7 @@ if (Profiles == 'Usager') {
             WebUI.navigateToUrl(GlobalVariable.URL_ANEFQualif)
 
             //WebUI.openBrowser(GlobalVariable.URL_ANEFQualif)
-            WebUI.maximizeWindow()
+            //WebUI.//WebUI.maximizeWindow()izeWindow()
 
             'Appel de l\'action Réutilisable pour contourner l\'erreur lié à la confidentialité'
             WebUI.callTestCase(findTestCase('Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/Erreur_lie_a_la_confidentialite'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -279,7 +279,7 @@ if (Profiles == 'Usager') {
 
             WebUI.navigateToUrl(GlobalVariable.URL_ANEFQualif)
 
-            WebUI.maximizeWindow()
+            //WebUI.//WebUI.maximizeWindow()izeWindow()
 
             //			System.setProperty("webdriver.chrome.logfile", "'" +  projDir + "'" + "./chromedriver.log");
             //			System.setProperty("webdriver.chrome.verboseLogging", "true");
@@ -341,7 +341,7 @@ if (Profiles == 'Agent') {
 if ( EnvExec == "URLPortailAgentQualif") {	WebUI.openBrowser(GlobalVariable.URLPortailAgentQualif)}	
 if ( EnvExec == "URLPortailAgentPreProd") {	WebUI.openBrowser(GlobalVariable.URLPortailAgentPreProd)}
 	
-    WebUI.maximizeWindow()
+    //WebUI.//WebUI.maximizeWindow()izeWindow()
 
     //System.setProperty('webdriver.chrome.logfile', (('\'' + projDir) + '\'') + './chromedriver.log')
 

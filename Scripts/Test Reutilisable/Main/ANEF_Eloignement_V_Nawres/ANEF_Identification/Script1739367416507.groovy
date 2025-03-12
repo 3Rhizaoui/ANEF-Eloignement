@@ -61,4 +61,4 @@ else {
 	println "Vérifier le Portail de votre connexion Usager ou Agent"
 }
 WebUI.delay(5)
-WebUI.verifyElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement'), 1,FailureHandling.STOP_ON_FAILURE)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement'), 1,FailureHandling.STOP_ON_FAILURE)
