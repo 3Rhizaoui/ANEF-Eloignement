@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/app-root/app-layout-borderless/div[3]/app-mesure-oqtf/div[2]/div[2]/div[2]/div[1]/div/div[1]/div[2]/app-accordeon-delai-depart-volontaire/section/div/form/div[3]/app-dsfr-piece-jointe/div/div[2]/input</value>
+         <value>//app-accordeon-delai-depart-volontaire/section/div/form//app-dsfr-piece-jointe//input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

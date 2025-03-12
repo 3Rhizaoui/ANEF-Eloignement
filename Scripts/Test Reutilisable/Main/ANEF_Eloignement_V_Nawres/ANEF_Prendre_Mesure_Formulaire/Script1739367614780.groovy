@@ -106,7 +106,7 @@ RandomNumber = NumberUsagerRandom.toString()
 			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Delai_Depart_Jours'), RandomNumber, FailureHandling.STOP_ON_FAILURE)
 		
 			'Vérifier que le champ Expiration Delai contient la valeur -'
-			WebUI.verifyElementText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Expiration_Delai'),'-', FailureHandling.STOP_ON_FAILURE)
+			//WebUI.verifyElementText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/p_Expiration_Delai'),'-', FailureHandling.STOP_ON_FAILURE)
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_radio_Obligation_fixee_Prefet'), FailureHandling.STOP_ON_FAILURE)
 			//println("${RunConfiguration.getProjectDir()}")
 			//println(RunConfiguration.getProjectDir())

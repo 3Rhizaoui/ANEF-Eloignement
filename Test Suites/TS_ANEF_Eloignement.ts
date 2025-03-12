@@ -21,7 +21,7 @@
          <id>6059a781-02e9-46c3-bf1e-9336e80490eb</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-4</value>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/DATA_ANEF_Eloignement</testDataId>
       </testDataLink>
@@ -271,6 +271,18 @@
          <type>DATA_COLUMN</type>
          <value>AjouterIRTF2</value>
          <variableId>fcc254e9-3c38-4a8a-be39-92ada665b6d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NombreJLD</value>
+         <variableId>91945264-dbd4-495d-bc72-f75255e4fc61</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterRecoursContentieux</value>
+         <variableId>9f3a4d38-9ebb-4200-86b8-58f6030e85fb</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

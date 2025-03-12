@@ -48,10 +48,14 @@ if ( AjouterMesureExecution == 'True') {
 		"Retention Administrative"
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Retention_Administrative'), FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
+		
+		if (Mesure != "OQTF") {
+		WebUI.delay(3)
 		WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 5, FailureHandling.STOP_ON_FAILURE)
 		//WebUI.scrollToPosition(0, 500)
-		//WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 10)
+		WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 10)
 		WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 2 ,FailureHandling.STOP_ON_FAILURE)
+		}
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Lieu_Retention'), '0006-NICE-CRA' ,false,FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
 		
@@ -109,7 +113,7 @@ if ( AjouterMesureExecution == 'True') {
 				fileInput.sendKeys(getProjectDir() + "/Data Files/Fichier_Test.pdf")
 				nbreJLD++
 			}*/
-			while (nbreJLD <= 7) {
+			while (nbreJLD <= 3) {
 				// Scroll to the button to add the file input
 				WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_JLD'), 10)
 				WebUI.delay(2)
@@ -149,7 +153,7 @@ if ( AjouterMesureExecution == 'True') {
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Retention_Administrative'), FailureHandling.STOP_ON_FAILURE)
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
 			WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Mesure_Execution'), 4, FailureHandling.STOP_ON_FAILURE)
-			WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), "L. 753-1" ,false,FailureHandling.STOP_ON_FAILURE)
+			if (Mesure != "OQTF") { WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), "L. 753-1" ,false,FailureHandling.STOP_ON_FAILURE) }
 			WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Lieu_Retention'), '0751-PARIS 1 (ENPP)-CRA' ,false,FailureHandling.STOP_ON_FAILURE)
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
 		}
@@ -219,7 +223,7 @@ if ( AjouterMesureExecution == 'True') {
 		
 	}
 	"Ajouter une mesure d'execution : Reexamination Expulsion"
-	if ( ReexamenExpulsion =="Oui") {
+	if ( ReexamenExpulsion == "Oui") {
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Autorite_Competente_Reexamen'), "Ministre de l'Intérieur" ,false,FailureHandling.STOP_ON_FAILURE)
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Pays_Residence_Reexamen'), "FRANCE" ,false,FailureHandling.STOP_ON_FAILURE)
 		"Ajouter un Document "
@@ -241,7 +245,7 @@ if ( AjouterMesureExecution == 'True') {
 		
 	}
 	"Ajouter une Aprogation/retrait" 
-	if(AjouterAprogationRetrait=="Oui") {
+	if(AjouterAprogationRetrait == "Oui") {
 		
 		GlobalVariable.AprogationRetrait = true
 		//boolean AprogationRetrait = GlobalVariable.AprogationRetrait
@@ -341,10 +345,14 @@ if ( AjouterMesureExecution == 'True') {
 			WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
 			
 		}
-		
-		
-		
-		
+					
+	}
+	"Ajouter un Recours Contentieux"
+	if (AjouterRecoursContentieux == "Oui") {
+		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/acc_Recours_Contentieux'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_decision_Recours_Contentieux'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.uploadFile(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Fichier_Recours_Contentieux'), RunConfiguration.getProjectDir() + '/Data Files/Fichier_Test.pdf')
+		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
 		
 		
 	}

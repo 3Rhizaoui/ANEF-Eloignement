@@ -138,6 +138,18 @@
       <value></value>
       <variableId>cf19ad47-fc12-4478-bbbc-17436a4fa204</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c349aa95-e28a-4542-b577-c99843226f2f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4525dbda-3def-4e18-9257-4bc5db7c5d51</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
       <description></description>
@@ -291,5 +303,19 @@
       <id>cf19ad47-fc12-4478-bbbc-17436a4fa204</id>
       <masked>false</masked>
       <name>RefuserDepartVolontaireOQTF</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
+      <description></description>
+      <id>c349aa95-e28a-4542-b577-c99843226f2f</id>
+      <masked>false</masked>
+      <name>NombreJLD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
+      <description></description>
+      <id>4525dbda-3def-4e18-9257-4bc5db7c5d51</id>
+      <masked>false</masked>
+      <name>AjouterRecoursContentieux</name>
    </variable>
 </TestCaseEntity>
