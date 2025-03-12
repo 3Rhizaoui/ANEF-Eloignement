@@ -60,10 +60,10 @@ if(Mesure != 'ITF') {
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_radio_Urgence_Absolue_Non'), FailureHandling.STOP_ON_FAILURE)
 		
 			"Renseigner les champs Obligatoire Comex"
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Date_Notification_Comex'), '22/06/2024', FailureHandling.STOP_ON_FAILURE)
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Date_Comex'), '22/06/2024', FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Date_Notification_Comex'), '12032025', FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Date_Comex'), '12032025', FailureHandling.STOP_ON_FAILURE)
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_radio_Avis_Comex_Favorable'), FailureHandling.STOP_ON_FAILURE)
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Date_Avis_Comex'), '22/06/2024', FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Date_Avis_Comex'), '15032025', FailureHandling.STOP_ON_FAILURE)
 		
 			"Refuser de Poursuivre la procédure d'expulsion"
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_radio_Poursuite_Procedure_Expulsion_Non'), FailureHandling.STOP_ON_FAILURE)
