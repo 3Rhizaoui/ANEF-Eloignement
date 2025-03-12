@@ -19,7 +19,10 @@ import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang.RandomStringUtils as RandStr
 
 'Accèder à la page d\'accueil  ANEF eloignement'
-WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement'))
+
+CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//span[contains(text(),"ANEF éloignement")]')
+
+//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Accueil_Principale/btn_ANEF_Eloignement'))
 
 'Vérifier la position de la page d\'accueil eloignement'
 WebUI.verifyElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Creation_ou_Recherche_Dossier/btn_Rechercher_Dossier'),1, FailureHandling.STOP_ON_FAILURE)
