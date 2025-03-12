@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import java.util.Locale
+
+Locale.setDefault(new Locale("en", "US"))
 
 'Appel Brique Réutilisable pour lancer URl ANEF pour Agent' 
 WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Lancer_URL_ANEF'), [Profiles:Profiles, EnvExec:EnvExec], FailureHandling.STOP_ON_FAILURE)

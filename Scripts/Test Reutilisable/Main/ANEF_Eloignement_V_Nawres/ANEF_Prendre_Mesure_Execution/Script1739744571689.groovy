@@ -28,6 +28,7 @@ import com.kms.katalon.core.testobject.ConditionType
 import org.openqa.selenium.Keys
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+
 "Generer la date du jour"
 // Obtenir la date et l'heure actuelles
 Calendar calendar = Calendar.getInstance()
@@ -39,6 +40,9 @@ String formattedDate = sdf.format(currentDate)
 DateActuelle =formattedDate.toString()
 
 //Ajouter une mesure d'execution
+
+// Définir la locale en "fr_FR" (France, format 24h)
+
 
 if ( AjouterMesureExecution == 'True') {
 	
@@ -282,9 +286,9 @@ if ( AjouterMesureExecution == 'True') {
 				
 				}
 			if (Issue=="BE") {
-				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Issue_BE'), FailureHandling.STOP_ON_FAILURE)
-				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
-				WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Execution_Mesure'), FailureHandling.STOP_ON_FAILURE)
+				//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Issue_BE'), FailureHandling.STOP_ON_FAILURE)
+				//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+				//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Execution_Mesure'), FailureHandling.STOP_ON_FAILURE)
 				
 				
 			}
