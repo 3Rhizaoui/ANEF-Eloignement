@@ -30,6 +30,7 @@ String formattedDate = sdf.format(currentDate)
 DateActuelle =formattedDate.toString()
 println(DateActuelle)
 
+WebUI.delay(20)
 "Attendre que le bouton soit cliquable"
 WebUI.waitForElementClickable(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Ajouter_Decision'), 20, FailureHandling.STOP_ON_FAILURE)
 
