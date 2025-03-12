@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
+7if (ControleChampsCreation =="True") {
 "Onglet 'Dossier etranger'"
 'Vérification des correspondances entres les accordéons dans la page et le menu à gauche'
 
@@ -63,7 +63,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_
 "Accordeon Consultations sécuritaires"
 WebUI.verifyElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Formulaire_Creation_Dossier/Formulaire_Creation_Dossier_Menu/Menu_Consultations_Securitaires'), 1,FailureHandling.STOP_ON_FAILURE)
 
-
+}
 
 /***Affichage du Texte "Les champs marqués d'un* sont obligatoires"
 Affichage des champs suivants :
