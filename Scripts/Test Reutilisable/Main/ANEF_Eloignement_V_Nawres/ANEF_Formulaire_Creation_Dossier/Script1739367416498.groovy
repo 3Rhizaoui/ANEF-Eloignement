@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-7if (ControleChampsCreation =="True") {
+if (ControleChampsCreation =="True") {
 "Onglet 'Dossier etranger'"
 'Vérification des correspondances entres les accordéons dans la page et le menu à gauche'
 

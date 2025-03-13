@@ -7,12 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//app-accordeon-ictf-irtf/section/div/form/div[2]/div[1]/div[5]/button&#xd;
-</value>
+         <value>//app-accordeon-ictf-irtf/section//form//button[contains(text(),&quot;Ajouter une prolongation&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

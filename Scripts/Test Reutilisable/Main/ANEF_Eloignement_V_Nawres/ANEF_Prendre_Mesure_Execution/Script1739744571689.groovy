@@ -308,7 +308,9 @@ if ( AjouterMesureExecution == 'True') {
 			println(AprogationRetrait)
 			"Ajouter Une prolongation DDV "
 			WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_DDV'), 5, FailureHandling.STOP_ON_FAILURE)
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_DDV'), FailureHandling.STOP_ON_FAILURE)
+			CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//app-accordeon-delai-depart-volontaire/section/div/form//button[contains(text(),"Ajouter une prolongation")]')
+			
+			//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_DDV'), FailureHandling.STOP_ON_FAILURE)
 			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Duree_Delai_Prolongation'), '25', FailureHandling.STOP_ON_FAILURE)
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
 			"Ajouter une decision + Notification"
@@ -322,8 +324,10 @@ if ( AjouterMesureExecution == 'True') {
 			boolean AprogationRetrait = GlobalVariable.AprogationRetrait
 			println(AprogationRetrait)
 			"Ajouter Une prolongation IRTF "
-			WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), 5, FailureHandling.STOP_ON_FAILURE)		
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), FailureHandling.STOP_ON_FAILURE)
+			//WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), 5, FailureHandling.STOP_ON_FAILURE)
+			CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//app-accordeon-ictf-irtf/section//form//button[contains(text(),"Ajouter une prolongation")]')
+			
+			//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), FailureHandling.STOP_ON_FAILURE)
 			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Ptolongation_IRTF'), '2', FailureHandling.STOP_ON_FAILURE)
 			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
 			
