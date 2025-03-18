@@ -46,6 +46,7 @@ if (AprogationRetrait == true) {
 }
 "Confirmer l'Ajout de decision"
 WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Ajout_Decision'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Ajouter_Decision_Et_Notification/btn_Confirmer_Ajout_Decision'), FailureHandling.STOP_ON_FAILURE)
 
 "Attendre que le bouton Confirmer Notification soit cliquable"

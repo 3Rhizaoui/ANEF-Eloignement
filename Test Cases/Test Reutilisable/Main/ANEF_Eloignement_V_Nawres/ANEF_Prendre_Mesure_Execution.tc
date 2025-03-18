@@ -150,6 +150,12 @@
       <value></value>
       <variableId>4525dbda-3def-4e18-9257-4bc5db7c5d51</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c17d1c3f-cf3b-429d-8014-089d0576bb4c</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
       <description></description>
@@ -317,5 +323,12 @@
       <id>4525dbda-3def-4e18-9257-4bc5db7c5d51</id>
       <masked>false</masked>
       <name>AjouterRecoursContentieux</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
+      <description></description>
+      <id>c17d1c3f-cf3b-429d-8014-089d0576bb4c</id>
+      <masked>false</masked>
+      <name>AjouterICTF</name>
    </variable>
 </TestCaseEntity>

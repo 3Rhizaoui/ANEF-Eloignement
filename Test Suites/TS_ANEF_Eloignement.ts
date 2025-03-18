@@ -284,5 +284,11 @@
          <value>AjouterRecoursContentieux</value>
          <variableId>9f3a4d38-9ebb-4200-86b8-58f6030e85fb</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterICTF</value>
+         <variableId>58e36887-1b5e-4293-8cf0-1b3c9740ce1c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

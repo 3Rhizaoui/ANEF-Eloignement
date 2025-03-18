@@ -46,25 +46,109 @@ DateActuelle =formattedDate.toString()
 
 if ( AjouterMesureExecution == 'True') {
 	
+	if(Mesure =="OQTF") {
+		
+		if(AjouterProlongationDDV == "Oui" && RefuserDepartVolontaireOQTF == "false") {
+			
+			GlobalVariable.AprogationRetrait = false
+			boolean AprogationRetrait = GlobalVariable.AprogationRetrait
+			println(AprogationRetrait)
+			"Ajouter Une prolongation DDV "
+			WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_DDV'), 5, FailureHandling.STOP_ON_FAILURE)
+			WebUI.delay(3)
+			CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//app-accordeon-delai-depart-volontaire/section/div/form//button[contains(text(),"Ajouter une prolongation")]')
+			
+			//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_DDV'), FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Duree_Delai_Prolongation'), '25', FailureHandling.STOP_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+			"Ajouter une decision + Notification"
+			WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
+			
+		}
+		
+		if( AjouterProlongationIRTF == "Oui" && RefuserDepartVolontaireOQTF == "false") {
+			
+			GlobalVariable.AprogationRetrait = false
+			boolean AprogationRetrait = GlobalVariable.AprogationRetrait
+			println(AprogationRetrait)
+			"Ajouter Une prolongation IRTF "
+			WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), 5, FailureHandling.STOP_ON_FAILURE)
+			WebUI.delay(3)
+			
+			CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//app-accordeon-ictf-irtf/section//form//button[contains(text(),"Ajouter une prolongation")]')
+			
+			//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), FailureHandling.STOP_ON_FAILURE)
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Ptolongation_IRTF'), '2', FailureHandling.STOP_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+			
+			"Ajouter une decision + Notification"
+			WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
+			
+		}
+		if( AjouterIRTF2 == "Oui" ) {
+			
+			GlobalVariable.AprogationRetrait = false
+			boolean AprogationRetrait = GlobalVariable.AprogationRetrait
+			println(AprogationRetrait)
+			WebUI.delay(3)
+			"Ajouter Un IRTF "
+			
+			CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//app-accordeon-ictf-irtf//button[contains(text()," Ajouter une IRTF")]')
+			//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_IRTF'), FailureHandling.STOP_ON_FAILURE)
+			WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_IRTF_2'), 'L. 612-7' ,false, FailureHandling.STOP_ON_FAILURE)
+			"Renseigner le champ duree IRTF2"
+			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Duree_IRTF_2_Mois'), '2', FailureHandling.STOP_ON_FAILURE)
+			
+			"Enregistrer les modifications"
+			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+			
+			"Ajouter une decision + Notification"
+			WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
+			
+		}
+					
+	}
+	
+	if (Mesure=="RemiseSchengen" && AjouterICTF=="Oui") {
+		GlobalVariable.AprogationRetrait = false
+		boolean AprogationRetrait = GlobalVariable.AprogationRetrait
+		println(AprogationRetrait)
+		"Ajouter Une prolongation ICTF "
+		WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_ICTF'), 5, FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(3)
+		
+		CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//app-accordeon-ictf-irtf/section/div/form/button[contains(text()," Ajouter une ICTF")]')
+		
+		//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Duree_ICTF_Annee'), '2', FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+		
+		"Ajouter une decision + Notification"
+		WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
+		
+	}
+	
 
-	if(TypeMesureExecution == 'Retention administrative') {
+	if (TypeMesureExecution == 'Retention administrative') {
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
 		"Retention Administrative"
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Retention_Administrative'), FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
 		
-		if (Mesure != "OQTF") {
-		WebUI.delay(3)
-		WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 5, FailureHandling.STOP_ON_FAILURE)
-		//WebUI.scrollToPosition(0, 500)
-		WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 10)
-		WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 2 ,FailureHandling.STOP_ON_FAILURE)
+		if ( Mesure == "Expulsion" ) {
+			WebUI.delay(3)
+			WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 5, FailureHandling.STOP_ON_FAILURE)
+			//WebUI.scrollToPosition(0, 500)
+			WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 10)
+			WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 2 ,FailureHandling.STOP_ON_FAILURE)
 		}
+		WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Lieu_Retention'), 10)
+		WebUI.delay(2)
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Lieu_Retention'), '0006-NICE-CRA' ,false,FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
 		
 		"Ajouter une protection Contre l'eloignement"	
-		if(ProtectionContreEloignement =="Oui") {
+		if (ProtectionContreEloignement =="Oui") {
 			
 			WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Protection_Contre_Eloignement_Oui'), 10)
 			WebUI.delay(3)
@@ -85,7 +169,7 @@ if ( AjouterMesureExecution == 'True') {
 		}
 		GlobalVariable.AprogationRetrait = false
 		boolean AprogationRetrait = GlobalVariable.AprogationRetrait
-		WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [AprogationRetrait : AprogationRetrait ,ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [AprogationRetrait : AprogationRetrait ,ModeNotification : "Voie administrative"], FailureHandling.STOP_ON_FAILURE)
 		
 		" Signaler une levée de rétention "
 		
@@ -196,7 +280,7 @@ if ( AjouterMesureExecution == 'True') {
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
 		
 	}
-	if(TypeMesureExecution == 'Assignation a residence' || AjouterAssignationResidence== "Oui") {
+	if ( TypeMesureExecution == 'Assignation a residence' || AjouterAssignationResidence== "Oui") {
 		
 		"Ajouter une mesure d'execution : Assignation a residence "
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
@@ -299,62 +383,7 @@ if ( AjouterMesureExecution == 'True') {
 			
 		}
 		
-	if(Mesure =="OQTF") {
-		
-		if(AjouterProlongationDDV == "Oui" && RefuserDepartVolontaireOQTF == "false") {
-			
-			GlobalVariable.AprogationRetrait = false
-			boolean AprogationRetrait = GlobalVariable.AprogationRetrait
-			println(AprogationRetrait)
-			"Ajouter Une prolongation DDV "
-			WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_DDV'), 5, FailureHandling.STOP_ON_FAILURE)
-			CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//app-accordeon-delai-depart-volontaire/section/div/form//button[contains(text(),"Ajouter une prolongation")]')
-			
-			//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_DDV'), FailureHandling.STOP_ON_FAILURE)
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Duree_Delai_Prolongation'), '25', FailureHandling.STOP_ON_FAILURE)
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
-			"Ajouter une decision + Notification"
-			WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
-			
-		}
-		
-		if( AjouterProlongationIRTF == "Oui" && RefuserDepartVolontaireOQTF == "false") {
-			
-			GlobalVariable.AprogationRetrait = false
-			boolean AprogationRetrait = GlobalVariable.AprogationRetrait
-			println(AprogationRetrait)
-			"Ajouter Une prolongation IRTF "
-			//WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), 5, FailureHandling.STOP_ON_FAILURE)
-			CustomKeywords.'tools.ExecuteActions.ClickObjectJs'('//app-accordeon-ictf-irtf/section//form//button[contains(text(),"Ajouter une prolongation")]')
-			
-			//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Prolongation_IRTF'), FailureHandling.STOP_ON_FAILURE)
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Ptolongation_IRTF'), '2', FailureHandling.STOP_ON_FAILURE)
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
-			
-			"Ajouter une decision + Notification"
-			WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
-			
-		}
-		if( AjouterIRTF2 == "Oui" ) {
-			
-			GlobalVariable.AprogationRetrait = false
-			boolean AprogationRetrait = GlobalVariable.AprogationRetrait
-			println(AprogationRetrait)
-			"Ajouter Un IRTF "
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_IRTF'), FailureHandling.STOP_ON_FAILURE)
-			WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_IRTF_2'), 'L. 612-7' ,false, FailureHandling.STOP_ON_FAILURE)
-			"Renseigner le champ duree IRTF2"
-			WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Duree_IRTF_2_Mois'), '2', FailureHandling.STOP_ON_FAILURE)
-			
-			"Enregistrer les modifications"
-			WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
-			
-			"Ajouter une decision + Notification"
-			WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Ajouter_Decision_Et_Notification'), [ AprogationRetrait : AprogationRetrait , ModeNotification : ModeNotification], FailureHandling.STOP_ON_FAILURE)
-			
-		}
-					
-	}
+
 	"Ajouter un Recours Contentieux"
 	if (AjouterRecoursContentieux == "Oui") {
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/acc_Recours_Contentieux'), FailureHandling.STOP_ON_FAILURE)

@@ -32,7 +32,7 @@ WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignem
 
 if (CreationOuRecherche == 'Creation') {
 	'Appel Brique Réutilisable pour Creation ou Recherche de dossier avec un numero etranger '
-	WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Formulaire_Creation_Dossier'), [CreationOuRecherche:CreationOuRecherche,Sexe:Sexe, AnneeNaissance:AnneeNaissance,Nationnalite:Nationnalite,OrigineDossier:OrigineDossier,ControleChampsCreation:ControleChampsCreation],FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Test Cases/Test Reutilisable/Main/ANEF_Eloignement_V_Nawres/ANEF_Formulaire_Creation_Dossier'), [CreationOuRecherche:CreationOuRecherche,Sexe:Sexe, AnneeNaissance:AnneeNaissance,Nationnalite:Nationnalite,OrigineDossier:OrigineDossier,ControleChampsCreation:ControleChampsCreation , AjouterICTF:AjouterICTF],FailureHandling.STOP_ON_FAILURE)
 }
 println(GlobalVariable.NumeroEtranger)
 
