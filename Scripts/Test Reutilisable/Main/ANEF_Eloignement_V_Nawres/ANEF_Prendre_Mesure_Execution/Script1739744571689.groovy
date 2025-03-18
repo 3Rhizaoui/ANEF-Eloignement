@@ -135,7 +135,7 @@ if ( AjouterMesureExecution == 'True') {
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Retention_Administrative'), FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
 		
-		if ( Mesure == "Expulsion" || Mesure == "IAT") {
+		if ( Mesure == "Expulsion" || Mesure == "IAT" || Mesure == "ITF") {
 			WebUI.delay(3)
 			WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 5, FailureHandling.STOP_ON_FAILURE)
 			//WebUI.scrollToPosition(0, 500)
@@ -286,7 +286,7 @@ if ( AjouterMesureExecution == 'True') {
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Ajouter_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Assignation_Residence'), FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
-		WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), FondementAssignationResidence ,false, FailureHandling.STOP_ON_FAILURE)
+		WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Assignation_Residence'), FondementAssignationResidence ,false, FailureHandling.STOP_ON_FAILURE)
 		
 		"Renseigner la duree de l'assignation"
 		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Duree_Assignation_Jours'), "15", FailureHandling.STOP_ON_FAILURE)
@@ -391,6 +391,16 @@ if ( AjouterMesureExecution == 'True') {
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_decision_Recours_Contentieux'), FailureHandling.STOP_ON_FAILURE)
 		WebUI.uploadFile(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Fichier_Recours_Contentieux'), RunConfiguration.getProjectDir() + '/Data Files/Fichier_Test.pdf')
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+		
+		
+	}
+	"Ajouter un relevement"
+	if( AjouterRelevement== "Oui" && Mesure =="ITF") {
+		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/acc_Relevement_ITF'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Date_Relevement'), '10032025', FailureHandling.STOP_ON_FAILURE)
+		WebUI.uploadFile(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Fichier_Relevement'), RunConfiguration.getProjectDir() + '/Data Files/Fichier_Test.pdf')
+		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Enregistrer'), FailureHandling.STOP_ON_FAILURE)
+		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Execution_Mesure'), FailureHandling.STOP_ON_FAILURE)
 		
 		
 	}

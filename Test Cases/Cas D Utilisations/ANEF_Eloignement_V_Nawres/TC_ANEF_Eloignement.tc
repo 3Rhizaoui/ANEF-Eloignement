@@ -270,6 +270,12 @@
       <value></value>
       <variableId>58e36887-1b5e-4293-8cf0-1b3c9740ce1c</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>058f8023-e668-4264-866f-ce8af77c6a7b</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
       <description></description>
@@ -577,5 +583,12 @@
       <id>58e36887-1b5e-4293-8cf0-1b3c9740ce1c</id>
       <masked>false</masked>
       <name>AjouterICTF</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('DATA_ANEF_Eloignement')</defaultValue>
+      <description></description>
+      <id>058f8023-e668-4264-866f-ce8af77c6a7b</id>
+      <masked>false</masked>
+      <name>AjouterRelevement</name>
    </variable>
 </TestCaseEntity>

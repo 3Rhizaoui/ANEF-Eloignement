@@ -21,7 +21,7 @@
          <id>6059a781-02e9-46c3-bf1e-9336e80490eb</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>15-15</value>
+            <value>16-20</value>
          </iterationEntity>
          <testDataId>Data Files/DATA_ANEF_Eloignement</testDataId>
       </testDataLink>
@@ -289,6 +289,12 @@
          <type>DATA_COLUMN</type>
          <value>AjouterICTF</value>
          <variableId>58e36887-1b5e-4293-8cf0-1b3c9740ce1c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6059a781-02e9-46c3-bf1e-9336e80490eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AjouterRelevement</value>
+         <variableId>058f8023-e668-4264-866f-ce8af77c6a7b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>34383942-a7d2-4445-b84a-7bfda9d28f97</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//app-add-decision-modal//form/app-dsfr-radio/div/fieldset//label)[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//app-add-decision-modal//form/app-dsfr-radio/div/fieldset//label)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
