@@ -135,7 +135,7 @@ if ( AjouterMesureExecution == 'True') {
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_radio_Retention_Administrative'), FailureHandling.STOP_ON_FAILURE)
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/btn_Confirmer_Mesure_Execution'), FailureHandling.STOP_ON_FAILURE)
 		
-		if ( Mesure == "Expulsion" ) {
+		if ( Mesure == "Expulsion" || Mesure == "IAT") {
 			WebUI.delay(3)
 			WebUI.waitForElementPresent(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Fondement_Legal_Mesure'), 5, FailureHandling.STOP_ON_FAILURE)
 			//WebUI.scrollToPosition(0, 500)
@@ -303,6 +303,7 @@ if ( AjouterMesureExecution == 'True') {
 		//WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Adresse_Assignation'), FailureHandling.STOP_ON_FAILURE)
 		//WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/input_Adresse_Assignation'), "20 Rue Lecourbe 75015 Paris" ,false,FailureHandling.STOP_ON_FAILURE)
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Departement_Assignation'), "Paris" ,false,FailureHandling.STOP_ON_FAILURE)
+		WebUI.delay(2)
 		WebUI.selectOptionByLabel(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Execution/select_Commune_Assignation'), "Paris 15e Arrondissement" ,false,FailureHandling.STOP_ON_FAILURE)
 		
 		"Enregistrer les modifications"

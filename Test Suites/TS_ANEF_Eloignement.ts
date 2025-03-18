@@ -21,7 +21,7 @@
          <id>6059a781-02e9-46c3-bf1e-9336e80490eb</id>
          <iterationEntity>
             <iterationType>RANGE</iterationType>
-            <value>1-3</value>
+            <value>15-15</value>
          </iterationEntity>
          <testDataId>Data Files/DATA_ANEF_Eloignement</testDataId>
       </testDataLink>

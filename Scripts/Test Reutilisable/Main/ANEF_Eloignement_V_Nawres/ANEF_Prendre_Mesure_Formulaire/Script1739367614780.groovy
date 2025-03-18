@@ -250,6 +250,8 @@ RandomNumberSelect = RandomNumber.toString()
 		WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Date_Notification_IAT'), DateActuelle, FailureHandling.STOP_ON_FAILURE)
 	
 		if (ModeNotification == 'Voie administrative'){WebUI.setText(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/input_Heure_Notification_IAT'), '13:30', FailureHandling.STOP_ON_FAILURE)}
+		WebUI.selectOptionByIndex(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/select_Auteur_Decision'), '2' ,FailureHandling.STOP_ON_FAILURE)
+		
 		WebUI.click(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Valider_Enregistrement_IAT'), FailureHandling.STOP_ON_FAILURE)
 		//WebUI.waitForElementVisible(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Confirmer_Enregistrement_Mesure'), 50, FailureHandling.STOP_ON_FAILURE)
 		WebUI.scrollToElement(findTestObject('Object Repository/ANEF_Eloignement_V_Nawres/Page_Prendre_Mesure_Formulaire/btn_Confirmer_Enregistrement_Mesure'), 50, FailureHandling.STOP_ON_FAILURE)

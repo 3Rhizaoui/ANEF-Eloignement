@@ -6,12 +6,11 @@
    <elementGuidId>52b355d4-89ea-40be-82d2-ff13f1ba18e1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id=&quot;nbr_jours&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//app-mesure-assignation-residence//input[@id=&quot;nbr_jours&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
